@@ -1,7 +1,7 @@
 <h1 align="center">
-	S-BAND Transmitter
+	S-band Transmitter
 	<br>
 </h1>
 
-<h4 align="center">Telemetry, Tracking and Command module designed for the S-band</h4>
+<h4 align="center">Transmitter for the S-band</h4>
 
