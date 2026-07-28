@@ -1,5 +1,5 @@
 <h1 align="center">
-	TELEMETRY, TRACKING AND COMMAND FOR S-BAND
+	S-BAND Transmitter
 	<br>
 </h1>
 
