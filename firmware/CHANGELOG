@@ -1,0 +1,24 @@
+# Changelog
+
+All notable changes to this firmware are documented here.
+
+## [1.0.0] - 2026-07-29
+
+### Added
+- Task 1: Payload Reader / Fragmenter — reads occultation event data,
+  splits into fixed-size (32-byte) chunks.
+- Task 2: FIFO Queue Manager — forwards chunks between queues, preserving
+  order.
+- Task 3: NGHam Encoder — encodes chunks into NGHam packets (CRC16 +
+  Reed-Solomon FEC + framing).
+- Task 4: Telemetry Monitor — reports queue occupancy, generation/
+  transmission rates, and overflow counts once per second.
+- Validated end-to-end on the FreeRTOS POSIX/Linux simulator.
+- Restructured firmware directory to match SpaceLab TTC2 project layout
+  (app/, config/, drivers/, freertos/).
+
+### Pending
+- Port to MSP430 target hardware.
+- Reed-Solomon field polynomial alignment with official NGHam spec
+  (currently uses 0x11D; spec requires 0x187 for byte-level
+  interoperability with reference implementations).
