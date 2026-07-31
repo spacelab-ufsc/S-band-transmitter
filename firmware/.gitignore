@@ -1,0 +1,19 @@
+# Build outputs
+build/
+*.o
+*.obj
+*.out
+*.elf
+*.map
+*.hex
+*.bin
+
+# Backup/editor files
+*.bak
+*~
+*.swp
+
+# IDE
+.vscode/
+.settings/
+.DS_Store
