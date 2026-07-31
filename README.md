@@ -5,11 +5,9 @@
 <h4 align="center">Payload packet handling pipeline for the S-band Transmitter, developed by Hardik Singhal, Shivansh Gupta, and Amrit Mishra as SpaceLab summer interns, under the mentorship of Lucas Ryan.</h4>
 
 <p align="center">
-    <!--
     <a href="https://github.com/spacelab-ufsc/S-band-transmitter">
         <img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
     </a>
-    -->
     <a href="https://freertos.org">
         <img src="https://img.shields.io/badge/platform-FreeRTOS%20POSIX-blue?style=for-the-badge">
     </a>
@@ -29,10 +27,11 @@
     <a href="#license">License</a>
 </p>
 
+<!--
 <p align="center">
     <img width="70%" src="doc/figures/ttc2_pcb_3d.png">
 </p>
-
+-->
 ## Overview
 
 This module implements the packet handling pipeline for the S-band Transmitter payload: reading payload data, fragmenting it into transmission-sized chunks, ordering it through a FIFO queue, encoding it into NGHam frames, and monitoring pipeline telemetry (queue occupancy, generation/transmission rates, overflow counts). It is implemented as four FreeRTOS tasks and validated on the FreeRTOS POSIX/Linux simulator prior to MCU integration.
