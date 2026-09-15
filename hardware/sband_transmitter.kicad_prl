@@ -33,7 +33,6 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -63,7 +62,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "LimeSDR-Mini_2v4.kicad_prl",
+    "filename": "sband_transmitter.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

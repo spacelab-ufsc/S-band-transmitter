@@ -22717,7 +22717,7 @@
 			(uuid "28d20bc3-0b21-4830-b643-0a3dd3b25f45")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "IC4")
 					(unit 1)
@@ -22791,7 +22791,7 @@
 			(uuid "2ab57de2-a449-445f-ac9a-2c9a6d16a809")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR058")
 					(unit 1)
@@ -22865,7 +22865,7 @@
 			(uuid "530893fc-a48f-4af2-83aa-60dd0dcc25fa")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR042")
 					(unit 1)
@@ -23245,7 +23245,7 @@
 			(uuid "f561d452-72b0-4961-a68b-3cdbbd188223")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C19")
 					(unit 1)
@@ -23319,7 +23319,7 @@
 			(uuid "04349f57-31b2-4f40-9899-100a3e623a9d")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR067")
 					(unit 1)
@@ -23699,7 +23699,7 @@
 			(uuid "b79e13e7-b631-4ce6-9776-df5db1de1c5b")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN13")
 					(unit 1)
@@ -23773,7 +23773,7 @@
 			(uuid "7f251e0b-6e3d-4795-84a3-c41097b837e6")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR066")
 					(unit 1)
@@ -24153,7 +24153,7 @@
 			(uuid "7b841b5c-dcf8-4c8d-9254-c798a8636374")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C11")
 					(unit 1)
@@ -24533,7 +24533,7 @@
 			(uuid "61588ec8-23e0-4963-9ca8-e275df43ea76")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C23")
 					(unit 1)
@@ -24695,7 +24695,7 @@
 			(uuid "ed796ad1-5a24-402f-a333-7cb1af75f2ce")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "T4")
 					(unit 1)
@@ -24769,7 +24769,7 @@
 			(uuid "81a127b3-29f0-461d-865e-266803d06624")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR061")
 					(unit 1)
@@ -25079,7 +25079,7 @@
 			(uuid "cc9bf2ec-238c-4019-86aa-89911476230a")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN2")
 					(unit 1)
@@ -25241,7 +25241,7 @@
 			(uuid "3a74c9dc-4d26-433e-88b5-732a542c4222")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "T3")
 					(unit 1)
@@ -25621,7 +25621,7 @@
 			(uuid "bbdb61e4-05ec-4962-824d-a0b4d2d62dcd")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C22")
 					(unit 1)
@@ -26110,7 +26110,7 @@
 			(uuid "7ea957de-9df0-4e07-a822-f3980cd71d8c")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C29")
 					(unit 1)
@@ -26610,7 +26610,7 @@
 			(uuid "ac501385-57ea-43f9-ab07-f9c8205bcf57")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C8")
 					(unit 1)
@@ -26684,7 +26684,7 @@
 			(uuid "420a2055-bb71-43af-af31-1502ec73c670")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR049")
 					(unit 1)
@@ -27004,7 +27004,7 @@
 			(uuid "473d6ff1-ad03-4713-811f-349d576a50ca")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN16")
 					(unit 1)
@@ -27384,7 +27384,7 @@
 			(uuid "dee8394a-37d0-4ed8-9bf6-271e634fe7a7")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN5")
 					(unit 1)
@@ -27885,7 +27885,7 @@
 			(uuid "f422a3c5-a2ab-4f3b-ae57-6b785172b0e3")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN12")
 					(unit 1)
@@ -28194,7 +28194,7 @@
 			(uuid "0ebd129a-179e-413c-a61a-2bb11999b6d8")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN22")
 					(unit 1)
@@ -28600,7 +28600,7 @@
 			(uuid "8ce95334-ee3b-4a0d-8a57-80d1af3ba987")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN9")
 					(unit 1)
@@ -28674,7 +28674,7 @@
 			(uuid "d5c4a715-ab15-4100-8f8b-63e5a963ff58")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR053")
 					(unit 1)
@@ -29055,7 +29055,7 @@
 			(uuid "1ce6c1cd-8fef-4693-bc90-6c658413e9e7")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C10")
 					(unit 1)
@@ -29129,7 +29129,7 @@
 			(uuid "cbb5f796-b9cf-498c-a80e-338f7bd625de")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR027")
 					(unit 1)
@@ -29473,7 +29473,7 @@
 			(uuid "43555ec6-bd00-48a2-8004-a8a63eae643b")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "R23")
 					(unit 1)
@@ -29697,7 +29697,7 @@
 			(uuid "c9b357ba-4f5a-4d85-9cf4-27e786d204b2")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "R17")
 					(unit 1)
@@ -29771,7 +29771,7 @@
 			(uuid "8100ace1-131a-4e6a-b5ec-cc2bb48071e4")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR051")
 					(unit 1)
@@ -30151,7 +30151,7 @@
 			(uuid "6377b301-c801-419e-a62a-089ef699843c")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN19")
 					(unit 1)
@@ -30225,7 +30225,7 @@
 			(uuid "925894a1-1940-440b-b1ab-faeaff382a47")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR040")
 					(unit 1)
@@ -30299,7 +30299,7 @@
 			(uuid "4548a0c0-4202-43b7-b506-f90fccde2530")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR060")
 					(unit 1)
@@ -30703,7 +30703,7 @@
 			(uuid "a95f9e96-9fec-4a70-a843-53930512cd06")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "ESD2")
 					(unit 1)
@@ -31047,7 +31047,7 @@
 			(uuid "b1da68f4-3132-44b9-b272-b39212afde32")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "R14")
 					(unit 1)
@@ -31121,7 +31121,7 @@
 			(uuid "0b3adae7-fcfb-41eb-8f25-debe566aec61")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR028")
 					(unit 1)
@@ -31195,7 +31195,7 @@
 			(uuid "58accc66-a317-4ee9-ae6d-24a3a9e3eb9e")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR056")
 					(unit 1)
@@ -31575,7 +31575,7 @@
 			(uuid "1bda51ed-8eda-4791-8bad-47af4222b716")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN18")
 					(unit 1)
@@ -31649,7 +31649,7 @@
 			(uuid "520114c1-7347-47ab-a15a-620f49fd077a")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR048")
 					(unit 1)
@@ -31727,7 +31727,7 @@
 			(uuid "4fac73bb-89b7-48f3-8434-a9dae16c6a99")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR0313")
 					(unit 1)
@@ -31801,7 +31801,7 @@
 			(uuid "49e4e054-dfb1-45fc-a5ce-1bf96187731c")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR050")
 					(unit 1)
@@ -32301,7 +32301,7 @@
 			(uuid "2489a6b3-dea6-400a-af5e-15c7ddd08093")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C6")
 					(unit 1)
@@ -32375,7 +32375,7 @@
 			(uuid "a2a3dcfe-c4f3-4c65-ba13-3f40569ce277")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR023")
 					(unit 1)
@@ -32781,7 +32781,7 @@
 			(uuid "b0729dca-f800-4549-8a81-18260eb2023a")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN8")
 					(unit 1)
@@ -32863,7 +32863,7 @@
 			(uuid "97b017f0-4d97-4bd3-95e2-fa1bac34fc38")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "J13")
 					(unit 1)
@@ -33207,7 +33207,7 @@
 			(uuid "c3b4a702-ccc4-44a5-ac49-cbb76c109cbd")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN11")
 					(unit 1)
@@ -33281,7 +33281,7 @@
 			(uuid "b2051084-ab95-468a-8488-a8697ea1c779")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR047")
 					(unit 1)
@@ -33661,7 +33661,7 @@
 			(uuid "e6997c34-1dee-460c-b9f2-d6a16174bf49")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN7")
 					(unit 1)
@@ -34041,7 +34041,7 @@
 			(uuid "278a671f-8446-4e6e-82bf-28588c8d86f5")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C24")
 					(unit 1)
@@ -34373,7 +34373,7 @@
 			(uuid "53f8ee93-57c0-4208-adfb-493bb9c0ed1a")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "R16")
 					(unit 1)
@@ -34753,7 +34753,7 @@
 			(uuid "c32f5caa-5968-4e7d-a714-1495bbf1bd05")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C26")
 					(unit 1)
@@ -34827,7 +34827,7 @@
 			(uuid "1b4f0f57-a557-4731-bc2e-947b84f53d9a")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR035")
 					(unit 1)
@@ -34989,7 +34989,7 @@
 			(uuid "8af40bfa-016c-4399-bda5-7c07cb746f8f")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "T1")
 					(unit 1)
@@ -35489,7 +35489,7 @@
 			(uuid "96589e7e-32fe-425c-8356-c46db6abd044")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C15")
 					(unit 1)
@@ -35869,7 +35869,7 @@
 			(uuid "5fda3e16-929f-4dd1-8cd9-8fec4756785c")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN24")
 					(unit 1)
@@ -36249,7 +36249,7 @@
 			(uuid "7e867db1-9e96-4463-bfb9-e316f2ff7178")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN6")
 					(unit 1)
@@ -36990,7 +36990,7 @@
 			(uuid "2964f3a9-778e-41f8-b794-7db1df921e7f")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "VT2")
 					(unit 1)
@@ -37310,7 +37310,7 @@
 			(uuid "d9171033-b511-47f5-8735-b11a97643b17")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN20")
 					(unit 1)
@@ -37654,7 +37654,7 @@
 			(uuid "46719490-1fac-49f7-8859-d183531d5e50")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "R20")
 					(unit 1)
@@ -37728,7 +37728,7 @@
 			(uuid "9c5cf750-2cb2-46a6-ae23-9f2d18d3bd05")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR037")
 					(unit 1)
@@ -37802,7 +37802,7 @@
 			(uuid "5d39fd8a-be99-493a-a52c-c1a10cad2bc2")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR039")
 					(unit 1)
@@ -38026,7 +38026,7 @@
 			(uuid "1dd19eeb-6dff-4cd8-ac18-8617e4bda550")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "R24")
 					(unit 1)
@@ -38406,7 +38406,7 @@
 			(uuid "b594b491-5632-4cbf-a753-1690947bd8c4")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN23")
 					(unit 1)
@@ -38786,7 +38786,7 @@
 			(uuid "bef5e694-40a6-490f-893c-6a3f922c5ba4")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C16")
 					(unit 1)
@@ -39526,7 +39526,7 @@
 			(uuid "d7479ba3-1320-404e-aae8-36e562c767d7")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "VT3")
 					(unit 1)
@@ -40266,7 +40266,7 @@
 			(uuid "68fa106d-6582-4581-bba4-db5115016573")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "VT1")
 					(unit 1)
@@ -40697,7 +40697,7 @@
 			(uuid "82392eaa-c293-4dd7-80e7-f0b6609cbd5c")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "IC3")
 					(unit 1)
@@ -41077,7 +41077,7 @@
 			(uuid "2d13d743-c927-4ec7-b698-d3787ef8f62d")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C17")
 					(unit 1)
@@ -41387,7 +41387,7 @@
 			(uuid "0b42274b-d9c3-44e9-b086-448aad5824c0")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN1")
 					(unit 1)
@@ -41461,7 +41461,7 @@
 			(uuid "8fadc0c0-3993-4841-bd31-868b487948b0")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR062")
 					(unit 1)
@@ -41950,7 +41950,7 @@
 			(uuid "4826dfa8-99bb-4d60-96ee-ccbdcef2b150")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C14")
 					(unit 1)
@@ -42450,7 +42450,7 @@
 			(uuid "b07ce658-55b1-482a-b045-c70eea94c0a6")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C4")
 					(unit 1)
@@ -42524,7 +42524,7 @@
 			(uuid "ad2a7fd8-5793-4feb-b9c8-1283f86717f8")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR055")
 					(unit 1)
@@ -42598,7 +42598,7 @@
 			(uuid "72ef87fc-50f8-4636-a6d6-08205846aeff")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR032")
 					(unit 1)
@@ -42942,7 +42942,7 @@
 			(uuid "ab9c32e1-0e20-41dc-a50f-12b8bf7388f4")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "R22")
 					(unit 1)
@@ -43016,7 +43016,7 @@
 			(uuid "5ff3fc9a-4513-4e07-aca3-2c6be06680d1")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR059")
 					(unit 1)
@@ -43678,7 +43678,7 @@
 			(uuid "422b5f93-8519-4de3-abb1-0a8793106316")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "IC1")
 					(unit 4)
@@ -43752,7 +43752,7 @@
 			(uuid "1a342df8-e861-4474-bb2c-0cc97090191a")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR046")
 					(unit 1)
@@ -44132,7 +44132,7 @@
 			(uuid "fd1e3c71-08af-4d22-8e15-7b0d2aa531e4")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C9")
 					(unit 1)
@@ -44476,7 +44476,7 @@
 			(uuid "4867c83f-f09f-4017-9771-784f679f5884")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "R21")
 					(unit 1)
@@ -44550,7 +44550,7 @@
 			(uuid "32de4b6a-3403-462b-a07e-0b54c6148054")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR045")
 					(unit 1)
@@ -44624,7 +44624,7 @@
 			(uuid "218b58bf-a074-4c7c-a121-6fe134c7f49d")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR057")
 					(unit 1)
@@ -45113,7 +45113,7 @@
 			(uuid "f8bfeabc-840c-46f5-88e4-cbef52345be3")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C28")
 					(unit 1)
@@ -45457,7 +45457,7 @@
 			(uuid "f7a0d1b1-0366-4465-b9cb-ec5e81ef2ed0")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN10")
 					(unit 1)
@@ -46119,7 +46119,7 @@
 			(uuid "bdc046a6-1142-482f-9d3b-0a446665f5af")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "IC1")
 					(unit 3)
@@ -46500,7 +46500,7 @@
 			(uuid "609decdf-7dfd-4f41-a678-322e9174c053")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C25")
 					(unit 1)
@@ -46724,7 +46724,7 @@
 			(uuid "b280d482-56b8-4626-b48a-3e4fda413c44")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "R25")
 					(unit 1)
@@ -46798,7 +46798,7 @@
 			(uuid "f6a1ae88-34d8-4e8e-83e4-af6f7732a27c")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR054")
 					(unit 1)
@@ -47118,7 +47118,7 @@
 			(uuid "b8b1f424-e6e8-4ca8-98a2-90a1ae2b5b54")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN14")
 					(unit 1)
@@ -47192,7 +47192,7 @@
 			(uuid "3bc63d98-6aef-45ab-8ff7-f920cfb5c769")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR043")
 					(unit 1)
@@ -47266,7 +47266,7 @@
 			(uuid "cd0e5e5c-7271-4cc5-9e09-c15547a61ff3")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR036")
 					(unit 1)
@@ -47646,7 +47646,7 @@
 			(uuid "92030a79-f5f0-4d14-8900-7fe622b4306e")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN4")
 					(unit 1)
@@ -47720,7 +47720,7 @@
 			(uuid "657b4846-5011-4c8c-9562-8718cd06dd4c")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR030")
 					(unit 1)
@@ -47795,7 +47795,7 @@
 			(uuid "9eb52379-5e0a-46c5-a2f1-8c55d315efad")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR041")
 					(unit 1)
@@ -47869,7 +47869,7 @@
 			(uuid "3dd61909-940d-42e6-9aed-fd7fcb99d539")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR024")
 					(unit 1)
@@ -47943,7 +47943,7 @@
 			(uuid "331f127c-e709-4d4f-a66b-3d9cbcacb37d")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR063")
 					(unit 1)
@@ -48017,7 +48017,7 @@
 			(uuid "3e361f08-c89c-4fbd-a2d7-703e334bc7f0")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR034")
 					(unit 1)
@@ -48506,7 +48506,7 @@
 			(uuid "8ba32215-cfca-4408-912b-4f3622ae2cd4")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C13")
 					(unit 1)
@@ -49006,7 +49006,7 @@
 			(uuid "d9d02d9d-d18c-4b3a-9dc9-2be2dd9c0140")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C21")
 					(unit 1)
@@ -49386,7 +49386,7 @@
 			(uuid "5cf70b48-1d24-46cd-8247-ded7e08740f7")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C5")
 					(unit 1)
@@ -49887,7 +49887,7 @@
 			(uuid "28cf69f7-aa7d-49f2-ae76-f6364e41bd17")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN15")
 					(unit 1)
@@ -50387,7 +50387,7 @@
 			(uuid "f273c05e-9420-4467-ae2d-b32de17d2bb5")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C18")
 					(unit 1)
@@ -50461,7 +50461,7 @@
 			(uuid "5968cfe6-cd40-4efb-afc7-5be2abf555e6")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR029")
 					(unit 1)
@@ -50535,7 +50535,7 @@
 			(uuid "48a1edee-6b43-43b2-a6f2-e401a0f9e331")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR033")
 					(unit 1)
@@ -50915,7 +50915,7 @@
 			(uuid "4ed57ca0-8bdd-4d2a-a490-ab756f6fb841")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C7")
 					(unit 1)
@@ -51259,7 +51259,7 @@
 			(uuid "b1700341-7c52-4353-b194-4138840d0fd8")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "R19")
 					(unit 1)
@@ -51333,7 +51333,7 @@
 			(uuid "0c9fd290-2d97-456f-8fba-1722e888ca58")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR031")
 					(unit 1)
@@ -51713,7 +51713,7 @@
 			(uuid "5f0b1b20-2031-4259-8448-da1f17b8b6ee")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C20")
 					(unit 1)
@@ -52117,7 +52117,7 @@
 			(uuid "f6d6669a-311f-4c69-91e4-dad9da94cf14")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN3")
 					(unit 1)
@@ -52191,7 +52191,7 @@
 			(uuid "4dc65e80-2c99-4cc7-ab63-723bef9c59f0")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR026")
 					(unit 1)
@@ -52572,7 +52572,7 @@
 			(uuid "44292c7f-b9f3-42f4-9e4e-3982e3ea2f6b")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C12")
 					(unit 1)
@@ -52916,7 +52916,7 @@
 			(uuid "07962c1f-5cf5-4eff-ad71-dacc050298a2")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "R18")
 					(unit 1)
@@ -52990,7 +52990,7 @@
 			(uuid "df32f216-ba38-40af-8c94-eb40d26ec130")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR044")
 					(unit 1)
@@ -53334,7 +53334,7 @@
 			(uuid "bcac7744-30c0-4e02-8f02-a4eb965f8649")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "R15")
 					(unit 1)
@@ -53714,7 +53714,7 @@
 			(uuid "cf629c07-720e-411c-83db-dd1db1c9d94c")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN21")
 					(unit 1)
@@ -53788,7 +53788,7 @@
 			(uuid "012c516d-5f3b-41ec-bfc7-5d93ed12f04b")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR025")
 					(unit 1)
@@ -54192,7 +54192,7 @@
 			(uuid "cdd0c1b5-99ec-4bcc-adb9-726d3b2ffecf")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "ESD1")
 					(unit 1)
@@ -54573,7 +54573,7 @@
 			(uuid "0e439e48-8ec7-496d-a161-457ab60283e1")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C27")
 					(unit 1)
@@ -54977,7 +54977,7 @@
 			(uuid "931f1b8b-6784-4468-a188-a7afd7e45437")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "MN17")
 					(unit 1)
@@ -55138,7 +55138,7 @@
 			(uuid "e8774fc6-f98f-41aa-9339-1f4465ac4e37")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "T2")
 					(unit 1)
@@ -55212,7 +55212,7 @@
 			(uuid "b3689580-249c-415b-a40a-7f8e12a5ede1")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR052")
 					(unit 1)
@@ -55287,7 +55287,7 @@
 			(uuid "213c0e27-b8ca-4045-9bf5-39c01ba41310")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "#PWR038")
 					(unit 1)
@@ -55667,7 +55667,7 @@
 			(uuid "3426de92-6856-43f0-9661-a340881ac9da")
 		)
 		(instances
-			(project "LimeSDR-Mini_2v4"
+			(project "sband_transmitter"
 				(path "/b66cc7da-902e-49dc-a30c-fd30aa676c37"
 					(reference "C3")
 					(unit 1)
