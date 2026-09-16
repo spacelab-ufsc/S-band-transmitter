@@ -504,7 +504,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -1815,7 +1815,7 @@
     "top_level_sheets": [
       {
         "filename": "sband_transmitter.kicad_sch",
-        "name": "03_Clock_Diagram",
+        "name": "00_sband_transmitter",
         "uuid": "abe25270-a742-4ca7-a7eb-3e34a022e979"
       },
       {
@@ -1872,12 +1872,21 @@
         "filename": "12-rf_driver_pa.kicad_sch",
         "name": "12_RF_Driver_PA",
         "uuid": "c86087b3-b87b-4958-9300-9fef59fc3e5a"
+      },
+      {
+        "filename": "03_clock_diagram_(page_4).kicad_sch",
+        "name": "03_Clock_Diagram",
+        "uuid": "32cea3bb-50f1-43a8-b387-c36edef101d6"
       }
     ],
     "used_designators": "",
     "variants": []
   },
   "sheets": [
+    [
+      "abe25270-a742-4ca7-a7eb-3e34a022e979",
+      "00_sband_transmitter"
+    ],
     [
       "e8233183-5d4f-4e39-89c8-7f57fe16d052",
       "11_PC104"
@@ -1891,7 +1900,7 @@
       "02_Power_Diagram"
     ],
     [
-      "abe25270-a742-4ca7-a7eb-3e34a022e979",
+      "32cea3bb-50f1-43a8-b387-c36edef101d6",
       "03_Clock_Diagram"
     ],
     [
@@ -1928,11 +1937,11 @@
     ]
   ],
   "text_variables": {
-    "ADDRESS1": "Surrey Tech Centre",
-    "ADDRESS2": "Guildford GU2 7YG",
-    "ADDRESS3": "Surrey",
-    "ADDRESS4": "United Kingdom",
-    "ORGANIZATION": "Lime Microsystems",
+    "ADDRESS1": "UFSC",
+    "ADDRESS2": "Brasil",
+    "ADDRESS3": "",
+    "ADDRESS4": "",
+    "ORGANIZATION": "SpaceLab",
     "SHEETTOTAL": "10"
   },
   "tuning_profiles": {
