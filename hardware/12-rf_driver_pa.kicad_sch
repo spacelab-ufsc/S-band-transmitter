@@ -1544,6 +1544,12 @@
 		(uuid "03379208-2a0f-4bdd-b33a-15db04f79d12")
 	)
 	(junction
+		(at 227.33 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0573d6e9-b512-4639-ad46-3a66ea95b046")
+	)
+	(junction
 		(at 149.86 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1568,6 +1574,12 @@
 		(uuid "20059a15-a693-46c0-a319-9116095faf76")
 	)
 	(junction
+		(at 124.46 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a095734-75d2-42a0-b292-cd8b28837577")
+	)
+	(junction
 		(at 52.07 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1584,6 +1596,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58cb870b-6bc1-4635-ac35-496d86f2a7b6")
+	)
+	(junction
+		(at 124.46 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5944eed0-64ca-4ab1-8c37-81d74b5af01f")
 	)
 	(junction
 		(at 229.87 62.23)
@@ -1626,6 +1644,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97c9e4fc-1c59-4d4b-a5fa-1b820c585313")
+	)
+	(junction
+		(at 227.33 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a04df285-d318-47aa-97d2-91cea4a8de32")
+	)
+	(junction
+		(at 124.46 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b212d93b-edf7-4419-9351-3cf23ff07421")
 	)
 	(junction
 		(at 46.99 151.13)
@@ -1688,6 +1718,12 @@
 		(uuid "f3fcde1c-f188-40b7-95ec-95d044560591")
 	)
 	(junction
+		(at 227.33 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f64fff9a-3a0a-40f6-afff-24c93d702dfd")
+	)
+	(junction
 		(at 127 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1718,6 +1754,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 170.18) (xy 124.46 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061a2b21-1c97-4630-a578-a47936234587")
+	)
+	(wire
+		(pts
 			(xy 15.24 148.59) (xy 29.21 148.59)
 		)
 		(stroke
@@ -1736,6 +1782,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "07fc159e-b80e-40b4-8ddd-6df643671dfd")
+	)
+	(wire
+		(pts
+			(xy 124.46 175.26) (xy 124.46 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d96635-1416-4604-a7d7-eb4d2491a235")
 	)
 	(wire
 		(pts
@@ -1921,6 +1977,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 177.8) (xy 132.08 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27cf6bc9-e997-4e89-b64a-8a281e1588d7")
+	)
+	(wire
+		(pts
 			(xy 46.99 151.13) (xy 52.07 151.13)
 		)
 		(stroke
@@ -2009,6 +2075,16 @@
 			(type default)
 		)
 		(uuid "38a2fcc2-28d9-4616-b3ad-4850af952d74")
+	)
+	(wire
+		(pts
+			(xy 124.46 172.72) (xy 124.46 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391232fb-4226-4bc5-99ca-f1e5fc08ccc0")
 	)
 	(polyline
 		(pts
@@ -2121,6 +2197,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "49da98bf-74ce-4b41-8778-02dc980010d3")
+	)
+	(wire
+		(pts
+			(xy 227.33 92.71) (xy 233.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1a5bc4-0f73-4e0b-9945-92f35753de15")
 	)
 	(wire
 		(pts
@@ -2325,6 +2411,16 @@
 		)
 		(uuid "77e56ff3-a1e6-46a2-a412-eb401af97fbb")
 	)
+	(wire
+		(pts
+			(xy 227.33 85.09) (xy 227.33 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c368904-1617-4d0a-b54d-f7400411fb95")
+	)
 	(polyline
 		(pts
 			(xy 170.18 184.15) (xy 170.18 199.39)
@@ -2345,6 +2441,16 @@
 			(type default)
 		)
 		(uuid "82b64260-badc-45c2-9455-078b9051b927")
+	)
+	(wire
+		(pts
+			(xy 227.33 90.17) (xy 227.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843f509e-987a-410d-af73-d9dd3b780983")
 	)
 	(wire
 		(pts
@@ -2576,6 +2682,16 @@
 			(type default)
 		)
 		(uuid "ae48b722-4afd-4c75-bbaf-8eb4fc76c18b")
+	)
+	(wire
+		(pts
+			(xy 227.33 87.63) (xy 227.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0f948d-14e0-4159-9fa4-6703d11df3a6")
 	)
 	(wire
 		(pts
@@ -4425,6 +4541,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 132.08 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5068d086-0944-46c5-979d-f5bcc8ea6bc3")
+		(property "Reference" "#PWR0314"
+			(at 132.08 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.048 182.372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 132.08 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0dc6f6df-ea10-48e6-8101-03188a45ba90")
+		)
+		(instances
+			(project "sband_transmitter"
+				(path "/c86087b3-b87b-4958-9300-9fef59fc3e5a"
+					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 196.85 35.56 0)
 		(unit 1)
@@ -5666,6 +5860,84 @@
 			(project "sband_transmitter"
 				(path "/c86087b3-b87b-4958-9300-9fef59fc3e5a"
 					(reference "C128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 233.68 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d16e89e-ea5b-415d-b4f3-6d56893128d2")
+		(property "Reference" "#PWR0315"
+			(at 233.68 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.648 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 233.68 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4a1015d-4882-46c7-b649-8c96bb0775d8")
+		)
+		(instances
+			(project "sband_transmitter"
+				(path "/c86087b3-b87b-4958-9300-9fef59fc3e5a"
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
