@@ -3718,6 +3718,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 46.99) (xy 193.04 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67bfdd1d-0100-4513-87ae-0d3915aa70d8")
+	)
+	(wire
+		(pts
 			(xy 179.07 64.77) (xy 179.07 66.04)
 		)
 		(stroke
@@ -3736,6 +3746,26 @@
 			(color 0 0 0 1)
 		)
 		(uuid "7359e4c3-442f-45df-9641-9733a2061b0c")
+	)
+	(wire
+		(pts
+			(xy 205.74 113.03) (xy 212.09 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754745b6-97e7-4857-afef-33f0c0f11425")
+	)
+	(wire
+		(pts
+			(xy 205.74 44.45) (xy 214.63 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4ff918-be79-430b-b381-294d3e2c0baf")
 	)
 	(wire
 		(pts
@@ -3770,6 +3800,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 44.45) (xy 193.04 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f70de67-6c05-42bb-ac37-7de1518177f2")
+	)
+	(wire
+		(pts
 			(xy 205.74 135.89) (xy 212.09 135.89)
 		)
 		(stroke
@@ -3800,6 +3840,16 @@
 		)
 		(uuid "95d8cc2a-8bb8-4cce-b772-00eb366a49be")
 	)
+	(wire
+		(pts
+			(xy 205.74 46.99) (xy 214.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "960119e1-080d-4d35-9e72-03c4b69ffbc0")
+	)
 	(polyline
 		(pts
 			(xy 267.97 184.15) (xy 176.53 184.15)
@@ -3810,6 +3860,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "9b4092ad-ed88-48e9-853d-7b7a09a1c7dd")
+	)
+	(wire
+		(pts
+			(xy 187.96 113.03) (xy 193.04 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff9ecdc-8837-40a7-b624-b8f794d3193b")
 	)
 	(polyline
 		(pts
@@ -4289,6 +4349,126 @@
 			)
 		)
 	)
+	(global_label "I2C_SCL_DATA"
+		(shape output)
+		(at 187.96 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66ff6bee-3372-4e1b-b311-fff92f1b4c76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.0329 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI_MOSI_DATA"
+		(shape output)
+		(at 214.63 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fda8b4b-7c49-4e60-98a7-97cbdf6d7b7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.6457 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPI_SCK_DATA"
+		(shape output)
+		(at 186.69 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0f7407a-417a-4ecb-a028-7292fd602544")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.521 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI_CS_N{slash}SS_N_DATA"
+		(shape output)
+		(at 214.63 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc4cc452-3ab9-4689-9864-71558807c729")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.8747 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SDA_DATA"
+		(shape output)
+		(at 212.09 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6b006b9-612a-4ed3-979e-5db77df2192b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.0776 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VCC_3V3"
 		(shape output)
 		(at 186.69 135.89 180)
@@ -4302,6 +4482,30 @@
 		(uuid "eb50d0f7-fd11-4363-a619-de80663cc317")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 175.601 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI_MISO_DATA"
+		(shape output)
+		(at 186.69 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f22d8547-3a00-4408-91ad-b76c124c0a41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.6743 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

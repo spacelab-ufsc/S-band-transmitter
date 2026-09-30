@@ -7967,7 +7967,7 @@
 	)
 	(text "Pitch: 0.1\" (2.54mm)"
 		(exclude_from_sim no)
-		(at 220.5 249.5422 0)
+		(at 221.234 245.872 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -7986,6 +7986,17 @@
 			(justify left bottom)
 		)
 		(uuid "1daef767-decf-4178-8f66-6c1e014c324f")
+	)
+	(text "Pitch: 0.049\" (1.25mm)"
+		(exclude_from_sim no)
+		(at 220.218 296.164 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "28b39dc2-7777-4f7c-8645-edf9d03f9674")
 	)
 	(text "B1 (3.3V)"
 		(exclude_from_sim no)
@@ -8142,7 +8153,7 @@
 	)
 	(text "Pitch: 0.1\" (2.54mm)"
 		(exclude_from_sim no)
-		(at 316.082 52.7042 0)
+		(at 301.38 50.85 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -8221,7 +8232,7 @@
 	)
 	(text "B6 (3.3V)"
 		(exclude_from_sim no)
-		(at 121 115.3122 90)
+		(at 120.65 115.57 90)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -8377,6 +8388,17 @@
 		)
 		(uuid "ccca946f-c560-4fb8-8572-c655e5f225f5")
 	)
+	(text "Pitch: 0.049\" (1.25mm)"
+		(exclude_from_sim no)
+		(at 343.916 51.308 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd71a03e-61be-4330-820f-fd25d081723a")
+	)
 	(text "${CURRENTTIME}"
 		(exclude_from_sim no)
 		(at 300.99 289.3822 0)
@@ -8470,8 +8492,8 @@
 	)
 	(text_box "NF"
 		(exclude_from_sim no)
-		(at 223.5 261.7022 0)
-		(size -7 3.267)
+		(at 216.5 261.7022 0)
+		(size 7 3.267)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -8586,6 +8608,29 @@
 			(justify left top)
 		)
 		(uuid "67e3ca0a-3635-4b6f-bb24-009db23e4e5a")
+	)
+	(text_box "NF"
+		(exclude_from_sim no)
+		(at 351.599 63.084 0)
+		(size -7 3.266)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "68bd4730-c4f5-4fca-8afb-0a7f008c06b0")
 	)
 	(text_box "FPGA"
 		(exclude_from_sim no)
@@ -8705,7 +8750,7 @@
 	)
 	(text_box "NF"
 		(exclude_from_sim no)
-		(at 320.581 64.9382 0)
+		(at 305.879 63.084 0)
 		(size -7 3.266)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8748,6 +8793,29 @@
 			(justify left top)
 		)
 		(uuid "e6db1da3-20bc-4805-a2f2-25c580fb7b3d")
+	)
+	(text_box "NF"
+		(exclude_from_sim no)
+		(at 224.12 308.6922 0)
+		(size 7 3.267)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "fd98d878-bc50-4ae2-ad6f-fc80f87fdad8")
 	)
 	(junction
 		(at 341.352 222.4642)
@@ -8852,7 +8920,7 @@
 		(uuid "1ab2ddfc-193d-4599-b061-07f0bc15e35b")
 	)
 	(junction
-		(at 104.88 135.0922)
+		(at 105.41 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c4378fe-264e-4925-92fa-d8c76067c18e")
@@ -9014,6 +9082,12 @@
 		(uuid "4d3c6cb6-6a1b-4b73-af63-37e8f55424cf")
 	)
 	(junction
+		(at 323.879 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d839d04-39a4-42fb-9a19-822c941fa770")
+	)
+	(junction
 		(at 341.352 169.1242)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9030,12 +9104,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fc5473a-a334-45e3-bc40-412a19bbd56a")
-	)
-	(junction
-		(at 258.5 251.8922)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5024df92-ae61-471a-b528-d9d98bb075e3")
 	)
 	(junction
 		(at 379.706 143.7242)
@@ -9198,6 +9266,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82664a7e-6513-45a1-a185-53c19bfa1f43")
+	)
+	(junction
+		(at 259.08 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84b220f9-1db9-4a0b-bc0a-e156e7c845c6")
 	)
 	(junction
 		(at 341.352 242.7842)
@@ -9500,6 +9574,12 @@
 		(uuid "c8dafdb3-ba03-4f45-9bb6-ba6fda4b0c5c")
 	)
 	(junction
+		(at 369.599 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca563f9d-ebe7-4f7f-818e-c1f002d3447b")
+	)
+	(junction
 		(at 379.706 174.2042)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9775,7 +9855,7 @@
 	)
 	(wire
 		(pts
-			(xy 230 257.0022) (xy 227.5 257.0022)
+			(xy 229.87 256.54) (xy 227.33 256.54)
 		)
 		(stroke
 			(width 0)
@@ -9983,6 +10063,16 @@
 		)
 		(uuid "12a8c060-c151-45b1-af2c-bcfb3deccf55")
 	)
+	(wire
+		(pts
+			(xy 234.95 308.61) (xy 241.3 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "157839ad-ba56-45ee-ba1f-313469e78f82")
+	)
 	(polyline
 		(pts
 			(xy 271.78 276.6822) (xy 271.78 291.9222)
@@ -10066,7 +10156,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 94.4522) (xy 175 94.4522)
+			(xy 161.29 93.98) (xy 175.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -10166,6 +10256,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.599 69.85) (xy 355.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ce1c46-aa8b-419f-85a4-a07d923d47a4")
+	)
+	(wire
+		(pts
 			(xy 325.64 164.5422) (xy 325.64 167.0822)
 		)
 		(stroke
@@ -10183,6 +10283,16 @@
 			(type default)
 		)
 		(uuid "22fbc132-5b6a-4757-a393-bbdbafc2968a")
+	)
+	(wire
+		(pts
+			(xy 234.95 306.07) (xy 242.57 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c69388-aa96-41bd-99a8-39f1cae3d2a9")
 	)
 	(wire
 		(pts
@@ -10276,7 +10386,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.582 71.7042) (xy 324.582 71.7042)
+			(xy 323.88 69.85) (xy 323.879 69.85)
 		)
 		(stroke
 			(width 0)
@@ -10296,7 +10406,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 104.6122) (xy 175 104.6122)
+			(xy 161.29 104.14) (xy 180.34 104.14)
 		)
 		(stroke
 			(width 0)
@@ -10336,7 +10446,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 114.7722) (xy 175 114.7722)
+			(xy 161.29 114.3) (xy 180.34 114.3)
 		)
 		(stroke
 			(width 0)
@@ -10376,6 +10486,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 303.53) (xy 237.49 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de10dfd-96ec-4abc-9fe9-ff242385b6f7")
+	)
+	(wire
+		(pts
 			(xy 379.706 158.9642) (xy 379.706 161.5042)
 		)
 		(stroke
@@ -10386,7 +10506,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.582 69.1642) (xy 324.582 69.1642)
+			(xy 323.88 67.31) (xy 309.88 67.31)
 		)
 		(stroke
 			(width 0)
@@ -10396,7 +10516,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 84.2922) (xy 175 84.2922)
+			(xy 161.29 83.82) (xy 175.26 83.82)
 		)
 		(stroke
 			(width 0)
@@ -10416,7 +10536,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 91.9122) (xy 175 91.9122)
+			(xy 161.29 91.44) (xy 175.26 91.44)
 		)
 		(stroke
 			(width 0)
@@ -10516,6 +10636,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.6 69.85) (xy 369.599 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b2a839-4e24-4b7f-a898-e8f68df1c57b")
+	)
+	(wire
+		(pts
 			(xy 67.5 260.8922) (xy 90 260.8922)
 		)
 		(stroke
@@ -10557,7 +10687,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 112.2322) (xy 175 112.2322)
+			(xy 161.29 111.76) (xy 175.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -10780,7 +10910,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.5 269.7022) (xy 245.5 269.7022)
+			(xy 227.33 269.24) (xy 245.11 269.24)
 		)
 		(stroke
 			(width 0)
@@ -10800,7 +10930,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 107.1522) (xy 175 107.1522)
+			(xy 161.29 106.68) (xy 175.26 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10820,7 +10950,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 76.6722) (xy 175 76.6722)
+			(xy 161.29 76.2) (xy 175.26 76.2)
 		)
 		(stroke
 			(width 0)
@@ -10830,7 +10960,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 89.3722) (xy 175 89.3722)
+			(xy 161.29 88.9) (xy 175.26 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10890,7 +11020,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 132.5522) (xy 175 132.5522)
+			(xy 161.29 132.08) (xy 175.26 132.08)
 		)
 		(stroke
 			(width 0)
@@ -10907,6 +11037,16 @@
 			(type default)
 		)
 		(uuid "5278bc97-546d-4088-969f-806f723d3a8c")
+	)
+	(wire
+		(pts
+			(xy 270.51 260.46) (xy 270.51 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53379ac4-fbdb-42af-af9d-54d4c1cef386")
 	)
 	(wire
 		(pts
@@ -11001,7 +11141,7 @@
 	)
 	(wire
 		(pts
-			(xy 258.5 264.6222) (xy 258.5 262.0822)
+			(xy 259.08 264.16) (xy 259.08 261.65)
 		)
 		(stroke
 			(width 0)
@@ -11071,13 +11211,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 119.8522) (xy 175 119.8522)
+			(xy 161.29 119.38) (xy 179.07 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6116ee14-8137-4b47-9a78-aa1852fa1fb2")
+	)
+	(wire
+		(pts
+			(xy 234.95 313.69) (xy 241.3 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61826a60-6d38-4d0b-8540-928290dea2db")
 	)
 	(wire
 		(pts
@@ -11091,13 +11241,13 @@
 	)
 	(wire
 		(pts
-			(xy 258.5 251.8922) (xy 248 251.8922)
+			(xy 234.95 311.15) (xy 241.3 311.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66812188-2004-4802-89e1-c0a3bc2306ca")
+		(uuid "62039f74-4eb6-4963-9938-d89e928742ac")
 	)
 	(wire
 		(pts
@@ -11242,7 +11392,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 74.1322) (xy 175 74.1322)
+			(xy 161.29 73.66) (xy 175.26 73.66)
 		)
 		(stroke
 			(width 0)
@@ -11272,7 +11422,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.5 267.1622) (xy 269 267.1622)
+			(xy 227.33 266.7) (xy 270.51 266.7)
 		)
 		(stroke
 			(width 0)
@@ -11302,7 +11452,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.88 137.6322) (xy 104.88 135.0922)
+			(xy 105.41 137.16) (xy 105.41 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11342,7 +11492,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 79.2122) (xy 175 79.2122)
+			(xy 161.29 78.74) (xy 175.26 78.74)
 		)
 		(stroke
 			(width 0)
@@ -11362,6 +11512,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 129.54) (xy 161.29 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f6cb4e-65cc-424e-9c55-2795c0999545")
+	)
+	(wire
+		(pts
 			(xy 341.352 232.6242) (xy 341.352 235.1642)
 		)
 		(stroke
@@ -11369,6 +11529,16 @@
 			(type default)
 		)
 		(uuid "7915c470-e9ad-4a76-b190-c239513c4aeb")
+	)
+	(wire
+		(pts
+			(xy 270.51 246.38) (xy 270.51 250.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7991b31e-54dd-409c-838b-84ed35dea337")
 	)
 	(wire
 		(pts
@@ -11402,6 +11572,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.879 69.85) (xy 309.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c001db5-bb03-4ae3-a007-d36ff02678e3")
+	)
+	(wire
+		(pts
 			(xy 341.352 115.7842) (xy 341.352 118.3242)
 		)
 		(stroke
@@ -11432,7 +11612,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.5 262.0822) (xy 248 262.0822)
+			(xy 227.33 261.62) (xy 248.92 261.62)
 		)
 		(stroke
 			(width 0)
@@ -11533,7 +11713,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 102.0722) (xy 175 102.0722)
+			(xy 161.29 101.6) (xy 175.26 101.6)
 		)
 		(stroke
 			(width 0)
@@ -11563,6 +11743,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 248.92) (xy 248.92 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a3d930-6d56-4aed-b88f-c65181d65a7b")
+	)
+	(wire
+		(pts
 			(xy 212.5 104.5022) (xy 225 104.5022)
 		)
 		(stroke
@@ -11573,7 +11763,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.5 264.6222) (xy 258.5 264.6222)
+			(xy 227.33 264.16) (xy 259.08 264.16)
 		)
 		(stroke
 			(width 0)
@@ -11623,7 +11813,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 71.5922) (xy 175 71.5922)
+			(xy 161.29 71.12) (xy 175.26 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11774,7 +11964,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 117.3122) (xy 175 117.3122)
+			(xy 161.29 116.84) (xy 175.26 116.84)
 		)
 		(stroke
 			(width 0)
@@ -11831,6 +12021,16 @@
 			(type default)
 		)
 		(uuid "9cf83fb1-1d39-4beb-b217-b65f0faf7d8a")
+	)
+	(wire
+		(pts
+			(xy 369.6 67.31) (xy 355.6 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6ff06d-2e02-44b3-ace3-38e59a18e70d")
 	)
 	(wire
 		(pts
@@ -11955,16 +12155,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 130.0122) (xy 175 130.0122)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6a527ab-7c7a-4a95-8efe-3af3ba9d04e8")
-	)
-	(wire
-		(pts
 			(xy 341.352 158.9642) (xy 341.352 161.5042)
 		)
 		(stroke
@@ -12055,6 +12245,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 318.77) (xy 238.76 318.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3d7f3e-d21f-4957-92b7-2ed64ed87fb2")
+	)
+	(wire
+		(pts
 			(xy 67.5 149.4122) (xy 90 149.4122)
 		)
 		(stroke
@@ -12085,7 +12285,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 122.3922) (xy 175 122.3922)
+			(xy 161.29 121.92) (xy 179.07 121.92)
 		)
 		(stroke
 			(width 0)
@@ -12106,7 +12306,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.5 259.5422) (xy 235.5 259.5422)
+			(xy 227.33 259.08) (xy 234.95 259.08)
 		)
 		(stroke
 			(width 0)
@@ -12116,7 +12316,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.582 66.6242) (xy 324.582 66.6242)
+			(xy 323.88 64.77) (xy 309.88 64.77)
 		)
 		(stroke
 			(width 0)
@@ -12146,6 +12346,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 259.11) (xy 248.92 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7248686-b34e-4ba1-9d33-95b2c9958266")
+	)
+	(wire
+		(pts
 			(xy 162.5 225.1502) (xy 185 225.1502)
 		)
 		(stroke
@@ -12163,6 +12373,16 @@
 			(type default)
 		)
 		(uuid "b7db58e8-c146-4138-9b71-a39ef6cf17bf")
+	)
+	(wire
+		(pts
+			(xy 369.6 62.23) (xy 355.6 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9cade48-0a26-4db8-a68e-3d6f146391aa")
 	)
 	(wire
 		(pts
@@ -12216,7 +12436,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 86.8322) (xy 175 86.8322)
+			(xy 161.29 86.36) (xy 175.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -12226,7 +12446,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.582 61.5442) (xy 324.582 61.5442)
+			(xy 312.88 59.69) (xy 309.88 59.69)
 		)
 		(stroke
 			(width 0)
@@ -12326,13 +12546,23 @@
 	)
 	(wire
 		(pts
-			(xy 269 251.8922) (xy 258.5 251.8922)
+			(xy 270.51 246.38) (xy 259.08 246.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5e3c617-01f0-4d27-a098-4b689a9a1100")
+	)
+	(wire
+		(pts
+			(xy 259.08 246.38) (xy 259.08 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c661aa81-fe90-46ed-a635-8420f0b345bf")
 	)
 	(polyline
 		(pts
@@ -12387,6 +12617,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.6 59.69) (xy 355.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca542beb-8d2c-4d91-8716-d2a8dc9fc629")
+	)
+	(wire
+		(pts
 			(xy 341.352 197.0642) (xy 341.352 199.6042)
 		)
 		(stroke
@@ -12437,16 +12677,6 @@
 	)
 	(wire
 		(pts
-			(xy 269 267.1622) (xy 269 262.0822)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd0321ff-1fb0-485e-bbe4-4fc890492eec")
-	)
-	(wire
-		(pts
 			(xy 162.5 265.7902) (xy 184.5 265.7902)
 		)
 		(stroke
@@ -12457,7 +12687,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 127.4722) (xy 175 127.4722)
+			(xy 161.29 127) (xy 175.26 127)
 		)
 		(stroke
 			(width 0)
@@ -12528,7 +12758,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 81.7522) (xy 175 81.7522)
+			(xy 161.29 81.28) (xy 175.26 81.28)
 		)
 		(stroke
 			(width 0)
@@ -12588,7 +12818,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 96.9922) (xy 175 96.9922)
+			(xy 161.29 96.52) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -12648,7 +12878,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 135.0922) (xy 175 135.0922)
+			(xy 161.29 134.62) (xy 175.26 134.62)
 		)
 		(stroke
 			(width 0)
@@ -12668,7 +12898,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 124.9322) (xy 175 124.9322)
+			(xy 161.29 124.46) (xy 175.26 124.46)
 		)
 		(stroke
 			(width 0)
@@ -12728,7 +12958,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 109.6922) (xy 175 109.6922)
+			(xy 161.29 109.22) (xy 175.26 109.22)
 		)
 		(stroke
 			(width 0)
@@ -12745,6 +12975,16 @@
 			(type default)
 		)
 		(uuid "e53c7517-18a8-42dc-be48-cf5ba7bae3b9")
+	)
+	(wire
+		(pts
+			(xy 234.95 316.23) (xy 241.3 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71e3c78-7db8-43c7-aec4-40039dfe32df")
 	)
 	(wire
 		(pts
@@ -12788,7 +13028,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 99.5322) (xy 175 99.5322)
+			(xy 161.29 99.06) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -12908,6 +13148,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 246.38) (xy 259.08 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93190d0-0a45-48e1-b562-68244bcff32e")
+	)
+	(wire
+		(pts
 			(xy 341.352 171.6642) (xy 341.352 174.2042)
 		)
 		(stroke
@@ -12948,13 +13198,23 @@
 	)
 	(wire
 		(pts
-			(xy 338.582 64.0842) (xy 324.582 64.0842)
+			(xy 323.88 62.23) (xy 309.88 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fd26125b-bc97-4a3d-9ece-9088e47e9c1c")
+	)
+	(wire
+		(pts
+			(xy 369.6 64.77) (xy 355.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9a24aa-5304-4053-b892-c9e569b79b7c")
 	)
 	(wire
 		(pts
@@ -14739,7 +14999,7 @@
 		)
 	)
 	(label "FT_RDn"
-		(at 162.5 102.0722 0)
+		(at 162.56 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14747,6 +15007,16 @@
 			(justify left bottom)
 		)
 		(uuid "014b89fd-3449-4582-b05a-b9db139dda2f")
+	)
+	(label "FPGA_JTAG_TDO"
+		(at 241.3 308.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0284096a-6a43-417d-9849-14cdd17bc64d")
 	)
 	(label "FT_D9"
 		(at 162 177.9922 0)
@@ -14839,7 +15109,7 @@
 		(uuid "1697d686-c693-4121-9caa-43634b5c3765")
 	)
 	(label "FT_D27"
-		(at 162.5 86.8322 0)
+		(at 162.56 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14879,7 +15149,7 @@
 		(uuid "1d69f3cf-0171-4437-a5f0-bfb32b2f3689")
 	)
 	(label "FPGA_EGPIO1"
-		(at 324.582 66.6242 0)
+		(at 309.88 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14889,7 +15159,7 @@
 		(uuid "23f4d543-5a75-4a02-b9f3-d2a71eb3ab14")
 	)
 	(label "FT_D24"
-		(at 162.5 89.3722 0)
+		(at 162.56 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14938,16 +15208,6 @@
 		)
 		(uuid "2a5bb64c-af49-40ef-9079-cf99deba49c0")
 	)
-	(label "FT_RXFn"
-		(at 162.5 99.5322 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b58a183-b1f4-4a1f-98d7-fcc1c0e7904d")
-	)
 	(label "FPGA_GPIO4"
 		(at 193.5 67.5022 0)
 		(effects
@@ -14977,16 +15237,6 @@
 			(justify left bottom)
 		)
 		(uuid "310dfc9f-b434-4295-8556-d404619f8405")
-	)
-	(label "FT_BE2"
-		(at 162.5 114.7722 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3165abde-a05d-421c-86b3-8356e9755018")
 	)
 	(label "FPGA_GPIO0"
 		(at 193.5 61.5022 0)
@@ -15019,7 +15269,7 @@
 		(uuid "38c61e06-5371-45bd-9295-c7f18f1b2bc1")
 	)
 	(label "FPGA_JTAG_TCK"
-		(at 227.5 269.7022 0)
+		(at 227.33 269.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15029,7 +15279,7 @@
 		(uuid "3a6d8a2c-f49c-4f73-a85c-d2218d5eebf9")
 	)
 	(label "FT_D19"
-		(at 162.5 117.3122 0)
+		(at 162.56 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15039,7 +15289,7 @@
 		(uuid "3e9fe24a-4ea7-444a-8e0f-0c344f97f5b4")
 	)
 	(label "FPGA_JTAG_TMS"
-		(at 227.5 264.6222 0)
+		(at 227.33 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15059,7 +15309,7 @@
 		(uuid "3f4e883f-a122-4cd3-9a6e-d7809d2365a4")
 	)
 	(label "FT_RESETn"
-		(at 162.5 135.0922 0)
+		(at 162.56 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15069,7 +15319,7 @@
 		(uuid "40815230-9894-4326-a90d-a2b3f02362bf")
 	)
 	(label "FT_D14"
-		(at 162.5 112.2322 0)
+		(at 162.56 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15079,7 +15329,7 @@
 		(uuid "41fbaab6-1df2-4320-afb5-4035d9597063")
 	)
 	(label "FT_BE1"
-		(at 162.5 107.1522 0)
+		(at 162.56 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15108,18 +15358,8 @@
 		)
 		(uuid "48670465-14f8-48e7-9fab-4b27287e6076")
 	)
-	(label "FT_WRn"
-		(at 162.5 104.6122 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a9db206-5ff8-4255-bca7-77b55241da28")
-	)
 	(label "FT_D8"
-		(at 162.5 84.2922 0)
+		(at 162.56 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15149,7 +15389,7 @@
 		(uuid "4dfb668f-7137-4eb5-8d51-93aba7bf95af")
 	)
 	(label "FPGA_EGPIO0"
-		(at 324.582 69.1642 0)
+		(at 309.88 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15189,7 +15429,7 @@
 		(uuid "546ba562-f667-4847-a485-a55c46c784a0")
 	)
 	(label "FT_CLK"
-		(at 162.5 71.5922 0)
+		(at 162.56 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15198,15 +15438,15 @@
 		)
 		(uuid "57b920d3-4dea-419e-b19a-af3015d4d40c")
 	)
-	(label "FT_D31"
-		(at 162.5 122.3922 0)
+	(label "FPGA_EGPIO1"
+		(at 355.6 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "58d6f914-725e-4238-b219-6bf6d0fb94d2")
+		(uuid "5cb13041-726e-4602-8267-06365304400f")
 	)
 	(label "BOM_VER1"
 		(at 67.5 210.0922 0)
@@ -15217,16 +15457,6 @@
 			(justify left bottom)
 		)
 		(uuid "5e6be3d1-aab5-4d17-95ca-905aed46a456")
-	)
-	(label "FT_D30"
-		(at 162.5 119.8522 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6011a889-8cfc-43a7-85a1-6af7f3e9d0c0")
 	)
 	(label "FT_D2"
 		(at 162 180.5322 0)
@@ -15268,6 +15498,16 @@
 		)
 		(uuid "6b901df7-d30e-411f-b7cc-dfb9444cd1cb")
 	)
+	(label "FPGA_JTAG_TMS"
+		(at 241.3 311.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fa7c34b-c20b-42ca-89d6-c8523cb93434")
+	)
 	(label "LMS_EN_IQSEL1"
 		(at 67.5 268.5122 0)
 		(effects
@@ -15277,6 +15517,16 @@
 			(justify left bottom)
 		)
 		(uuid "7101f376-e862-4304-aff6-2272c32b10f4")
+	)
+	(label "FPGA_EGPIO0"
+		(at 355.6 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "710dd0c3-db3c-4a84-b0bc-0251e91f95dd")
 	)
 	(label "FPGA_CFG_SPI_MOSI"
 		(at 162.5 235.3102 0)
@@ -15309,7 +15559,7 @@
 		(uuid "71ff90df-62af-411b-85e3-59c2c3772424")
 	)
 	(label "FT_D6"
-		(at 162.5 74.1322 0)
+		(at 162.56 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15389,7 +15639,7 @@
 		(uuid "83cdc817-51bd-4ca8-a5b2-2e4d48ded5f5")
 	)
 	(label "FT_D12"
-		(at 162.5 109.6922 0)
+		(at 162.56 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15397,16 +15647,6 @@
 			(justify left bottom)
 		)
 		(uuid "84de3f5b-3632-4d0b-b242-a528a4416e83")
-	)
-	(label "FT_OEn"
-		(at 162.5 130.0122 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8503081d-5eda-4b26-b6cf-1b2aee675269")
 	)
 	(label "RFSW_TX_V2"
 		(at 67.5 113.4322 0)
@@ -15499,7 +15739,7 @@
 		(uuid "942e7c64-9c06-4645-a4a0-3e5c83ee1762")
 	)
 	(label "FT_D29"
-		(at 162.5 81.7522 0)
+		(at 162.56 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15539,7 +15779,7 @@
 		(uuid "9a1b67d9-c093-4ece-8fd4-31840ee59a78")
 	)
 	(label "FT_D22"
-		(at 162.5 79.2122 0)
+		(at 162.56 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15558,6 +15798,16 @@
 		)
 		(uuid "9d3a930f-ae8d-4ac7-999c-1b80fbf7e89e")
 	)
+	(label "FPGA_JTAG_TCK"
+		(at 241.3 316.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d9dd789-be37-4597-95ba-196b1d03218f")
+	)
 	(label "LMS_RXEN"
 		(at 67.5 184.9722 0)
 		(effects
@@ -15569,7 +15819,7 @@
 		(uuid "9db2a684-8491-44f7-87c2-db23935effbe")
 	)
 	(label "FT_BE3"
-		(at 162.5 94.4522 0)
+		(at 162.56 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15629,7 +15879,7 @@
 		(uuid "afc197a0-9bea-4372-9391-3f4c264b0c2a")
 	)
 	(label "FT_WAKEUPn"
-		(at 162.5 96.9922 0)
+		(at 162.56 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15729,7 +15979,7 @@
 		(uuid "ca45b5f2-1621-40ed-9a38-8092438374d6")
 	)
 	(label "FT_TXEn"
-		(at 162.5 132.5522 0)
+		(at 162.56 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15799,7 +16049,7 @@
 		(uuid "d72704ec-05d0-4770-ae7b-cb517b78a208")
 	)
 	(label "FT_BE0"
-		(at 162.5 124.9322 0)
+		(at 162.56 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15829,7 +16079,7 @@
 		(uuid "d945f16e-2b47-43b9-ba5f-7d048845e7af")
 	)
 	(label "FPGA_JTAG_TDO"
-		(at 227.5 267.1622 0)
+		(at 227.33 266.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15849,7 +16099,7 @@
 		(uuid "db68a7ed-a56f-4671-b4ab-247d01aeaebe")
 	)
 	(label "FT_D17"
-		(at 162.5 76.6722 0)
+		(at 162.56 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15859,7 +16109,7 @@
 		(uuid "dccc77f0-ae82-46e0-8a97-e991073f0ef6")
 	)
 	(label "FT_D21"
-		(at 162.5 127.4722 0)
+		(at 162.56 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15929,7 +16179,7 @@
 		(uuid "e552889a-9a6d-4b50-8983-d2a291ce47e2")
 	)
 	(label "FPGA_JTAG_TDI"
-		(at 227.5 262.0822 0)
+		(at 227.33 261.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16058,8 +16308,18 @@
 		)
 		(uuid "f71b33dc-db57-4f27-b2df-8a57df0f8105")
 	)
+	(label "FPGA_JTAG_TDI"
+		(at 241.3 313.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f83fc211-1eaf-46eb-925d-8b6d437a26da")
+	)
 	(label "FT_D26"
-		(at 162.5 91.9122 0)
+		(at 162.56 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16097,6 +16357,150 @@
 			(justify left bottom)
 		)
 		(uuid "fd97f8fd-8736-49d3-bc3a-1df05bb759c2")
+	)
+	(global_label "SPI_MISO_DATA"
+		(shape output)
+		(at 180.34 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "171998e0-5a4b-4ac3-82b2-05a2c972fb85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.3557 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPI_MOSI_DATA"
+		(shape output)
+		(at 180.34 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ba5edc8-bd5c-4e66-8d74-a2a0a246dfd7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.3557 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SCL_DATA"
+		(shape output)
+		(at 179.07 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3220a471-d65b-4f70-8b75-118fc3db5fc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.9971 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SDA_DATA"
+		(shape output)
+		(at 179.07 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fd10f51-73cf-4ad9-aaeb-26802ec0b594")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.0576 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPI_SCK_DATA"
+		(shape output)
+		(at 180.34 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81639c9b-52ee-4639-a469-5c5785970c7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.509 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPI_CS_N{slash}SS_N_DATA"
+		(shape output)
+		(at 180.34 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "faffbd01-12fd-4311-85a4-60c4291d4ffa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.5847 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:GND_POWER_GROUND")
@@ -17809,7 +18213,7 @@
 	)
 	(symbol
 		(lib_id "LimeFPGAboard_schLib:root_3_Res_0402_LimeFPGAboard_schLib.SchLib")
-		(at 248 256.8922 0)
+		(at 248.92 253.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17819,7 +18223,7 @@
 		(dnp no)
 		(uuid "0ced6c4f-c2a5-4491-bdfa-89d1028ddd34")
 		(property "Reference" "R49"
-			(at 249.254 256.1782 0)
+			(at 250.174 253.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17830,7 +18234,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 249.254 258.7182 0)
+			(at 250.174 255.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17841,7 +18245,7 @@
 			)
 		)
 		(property "Footprint" "RES0402"
-			(at 248 256.8922 0)
+			(at 248.92 253.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17852,7 +18256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248 256.8922 0)
+			(at 248.92 253.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17863,7 +18267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248 256.8922 0)
+			(at 248.92 253.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17874,7 +18278,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17886,7 +18290,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "311-4.7KLRCT-ND"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17898,7 +18302,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17910,7 +18314,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" "RC0402FR-074K7L"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17922,7 +18326,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17934,7 +18338,7 @@
 			)
 		)
 		(property "CATEGORY" "Resistors"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17946,7 +18350,7 @@
 			)
 		)
 		(property "STOCK 1" "4788231"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17958,7 +18362,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.1, 10=0.014, 100=0.0056, 1000=0.00253, 2500=0.0022, 5000=0.00181 (USD)"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17970,7 +18374,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17982,7 +18386,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17994,7 +18398,7 @@
 			)
 		)
 		(property "TOLERANCE" "±1%"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18006,7 +18410,7 @@
 			)
 		)
 		(property "POWER (WATTS)" "0.063W, 1/16W"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18018,7 +18422,7 @@
 			)
 		)
 		(property "COMPOSITION" "Thick Film"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18030,7 +18434,7 @@
 			)
 		)
 		(property "FEATURES" "Moisture Resistant"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18042,7 +18446,7 @@
 			)
 		)
 		(property "TEMPERATURE COEFFICIENT" "±100ppm/°C"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18054,7 +18458,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 155°C"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18066,7 +18470,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "0402 (1005 Metric)"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18078,7 +18482,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "0402"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18090,7 +18494,7 @@
 			)
 		)
 		(property "SIZE / DIMENSION" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18102,7 +18506,7 @@
 			)
 		)
 		(property "HEIGHT - SEATED (MAX)" "0.016\" (0.40mm)"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18114,7 +18518,7 @@
 			)
 		)
 		(property "FAILURE RATE" "-"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18126,7 +18530,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18138,7 +18542,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18150,7 +18554,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "4K7, 1%"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18162,7 +18566,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 246.746 251.3842 0)
+			(at 247.666 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18174,7 +18578,7 @@
 			)
 		)
 		(property "ASSEMBLY INFO" ""
-			(at 249.254 261.2582 0)
+			(at 250.174 258.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20894,7 +21298,7 @@
 	)
 	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:GND_POWER_GROUND")
-		(at 338.581 71.7042 90)
+		(at 323.879 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20904,7 +21308,7 @@
 		(dnp no)
 		(uuid "1d73d2bb-5ec5-4ddd-b395-7780cdae2a50")
 		(property "Reference" "#PWR0162"
-			(at 338.581 71.7042 0)
+			(at 323.879 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20915,7 +21319,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 344.931 71.7042 90)
+			(at 330.229 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20926,7 +21330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 338.581 71.7042 0)
+			(at 323.879 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20936,7 +21340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 338.581 71.7042 0)
+			(at 323.879 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20946,7 +21350,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 338.581 71.7042 0)
+			(at 323.879 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20969,7 +21373,7 @@
 	)
 	(symbol
 		(lib_id "LimeMicroAltiumLib_schLib:root_2_Header7P_LimeMicroAltiumLib_schLib.SchLib")
-		(at 222.42 274.7822 270)
+		(at 222.25 274.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20979,7 +21383,7 @@
 		(dnp no)
 		(uuid "1f607462-f99e-49e7-8300-413ba87df42c")
 		(property "Reference" "J5"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20990,7 +21394,7 @@
 			)
 		)
 		(property "Value" "FPGA JTAG (board edge)"
-			(at 215.5 276.5422 0)
+			(at 215.33 276.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21001,7 +21405,7 @@
 			)
 		)
 		(property "Footprint" "Header7x1_TH_v2"
-			(at 222.42 274.7822 0)
+			(at 222.25 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21012,7 +21416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.42 274.7822 0)
+			(at 222.25 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21023,7 +21427,7 @@
 			)
 		)
 		(property "Description" "Header, 7-pin"
-			(at 222.42 274.7822 0)
+			(at 222.25 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21034,7 +21438,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21046,7 +21450,7 @@
 			)
 		)
 		(property "COLOR" "Black"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21058,7 +21462,7 @@
 			)
 		)
 		(property "PACKAGING" "Bulk"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21070,7 +21474,7 @@
 			)
 		)
 		(property "NUMBER OF POSITIONS LOADED" "All"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21082,7 +21486,7 @@
 			)
 		)
 		(property "CATEGORY" "Connectors, Interconnects"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21094,7 +21498,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Sullins Connector Solutions"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21106,7 +21510,7 @@
 			)
 		)
 		(property "CONTACT FINISH" "Tin"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21118,7 +21522,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" "1"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21130,7 +21534,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" "PEC07SAAN"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21142,7 +21546,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21154,7 +21558,7 @@
 			)
 		)
 		(property "CONTACT TYPE" "Male Pin"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21166,7 +21570,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Through Hole"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21178,7 +21582,7 @@
 			)
 		)
 		(property "PITCH" "0.100\" (2.54mm)"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21190,7 +21594,7 @@
 			)
 		)
 		(property "NUMBER OF POSITIONS" "7"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21202,7 +21606,7 @@
 			)
 		)
 		(property "FEATURES" "-"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21214,7 +21618,7 @@
 			)
 		)
 		(property "CONTACT MATING LENGTH" "0.230\" (5.84mm)"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21226,7 +21630,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" "Header, Unshrouded, Breakaway"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21238,7 +21642,7 @@
 			)
 		)
 		(property "TERMINATION" "Solder"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21250,7 +21654,7 @@
 			)
 		)
 		(property "FASTENING TYPE" "-"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21262,7 +21666,7 @@
 			)
 		)
 		(property "CONTACT FINISH THICKNESS" "100µin (2.54µm)"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21274,7 +21678,7 @@
 			)
 		)
 		(property "ROW SPACING" "-"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21286,7 +21690,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "S1012E-07-ND"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21298,7 +21702,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "7 Positions Header, Unshrouded, Breakaway Connector 0.100\" (2.54mm) Through Hole Tin"
-			(at 217.34 254.4622 90)
+			(at 217.17 254 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21310,7 +21714,7 @@
 			)
 		)
 		(property "ASSEMBLY INFO" "NF"
-			(at 217.499 277.0432 90)
+			(at 217.329 276.581 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21841,7 +22245,7 @@
 	)
 	(symbol
 		(lib_id "LimeFPGAboard_schLib:root_3_Res_0402_LimeFPGAboard_schLib.SchLib")
-		(at 269 256.8922 0)
+		(at 270.51 255.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21851,7 +22255,7 @@
 		(dnp no)
 		(uuid "222d546c-0edb-4640-ab1c-3a78eb9927d7")
 		(property "Reference" "R51"
-			(at 270.254 256.1782 0)
+			(at 271.764 254.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21862,7 +22266,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 270.254 258.7182 0)
+			(at 271.764 257.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21873,7 +22277,7 @@
 			)
 		)
 		(property "Footprint" "RES0402"
-			(at 269 256.8922 0)
+			(at 270.51 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21884,7 +22288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269 256.8922 0)
+			(at 270.51 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21895,7 +22299,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269 256.8922 0)
+			(at 270.51 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21906,7 +22310,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21918,7 +22322,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "311-4.7KLRCT-ND"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21930,7 +22334,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21942,7 +22346,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" "RC0402FR-074K7L"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21954,7 +22358,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21966,7 +22370,7 @@
 			)
 		)
 		(property "CATEGORY" "Resistors"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21978,7 +22382,7 @@
 			)
 		)
 		(property "STOCK 1" "4788231"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21990,7 +22394,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.1, 10=0.014, 100=0.0056, 1000=0.00253, 2500=0.0022, 5000=0.00181 (USD)"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22002,7 +22406,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22014,7 +22418,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22026,7 +22430,7 @@
 			)
 		)
 		(property "TOLERANCE" "±1%"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22038,7 +22442,7 @@
 			)
 		)
 		(property "POWER (WATTS)" "0.063W, 1/16W"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22050,7 +22454,7 @@
 			)
 		)
 		(property "COMPOSITION" "Thick Film"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22062,7 +22466,7 @@
 			)
 		)
 		(property "FEATURES" "Moisture Resistant"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22074,7 +22478,7 @@
 			)
 		)
 		(property "TEMPERATURE COEFFICIENT" "±100ppm/°C"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22086,7 +22490,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 155°C"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22098,7 +22502,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "0402 (1005 Metric)"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22110,7 +22514,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "0402"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22122,7 +22526,7 @@
 			)
 		)
 		(property "SIZE / DIMENSION" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22134,7 +22538,7 @@
 			)
 		)
 		(property "HEIGHT - SEATED (MAX)" "0.016\" (0.40mm)"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22146,7 +22550,7 @@
 			)
 		)
 		(property "FAILURE RATE" "-"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22158,7 +22562,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22170,7 +22574,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22182,7 +22586,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "4K7, 1%"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22194,7 +22598,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 267.746 251.3842 0)
+			(at 269.256 249.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22206,7 +22610,7 @@
 			)
 		)
 		(property "ASSEMBLY INFO" ""
-			(at 270.254 261.2582 0)
+			(at 271.764 259.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22233,7 +22637,7 @@
 	)
 	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:GND_POWER_GROUND")
-		(at 227.5 272.2422 0)
+		(at 227.33 271.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22243,7 +22647,7 @@
 		(dnp no)
 		(uuid "23260ae3-016f-41fd-a33e-0e88174a4d5f")
 		(property "Reference" "#PWR0126"
-			(at 227.5 272.2422 0)
+			(at 227.33 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22254,7 +22658,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.5 278.5922 0)
+			(at 227.33 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22264,7 +22668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.5 272.2422 0)
+			(at 227.33 271.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22274,7 +22678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.5 272.2422 0)
+			(at 227.33 271.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22284,7 +22688,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.5 272.2422 0)
+			(at 227.33 271.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23904,6 +24308,80 @@
 			(project "sband_transmitter"
 				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
 					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LimeSDR-Mini_2v4-altium-import:VCC5P0_BAR")
+		(at 237.49 303.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37700050-2df8-4875-a137-0e22723e3c5e")
+		(property "Reference" "#PWR0167"
+			(at 237.49 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC5P0"
+			(at 237.49 299.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 303.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 303.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 303.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b0bf1f36-e60b-4f91-9e3f-1bd26288aeb1")
+		)
+		(instances
+			(project "sband_transmitter"
+				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -28074,7 +28552,7 @@
 	)
 	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:VCC3P3_BAR")
-		(at 235.5 259.5422 180)
+		(at 234.95 259.08 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28084,7 +28562,7 @@
 		(dnp no)
 		(uuid "54272bb5-a036-43eb-a793-7cf379eccc45")
 		(property "Reference" "#PWR0130"
-			(at 235.5 259.5422 0)
+			(at 234.95 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28095,7 +28573,7 @@
 			)
 		)
 		(property "Value" "VCC3P3"
-			(at 235.5 255.7322 0)
+			(at 234.95 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28105,7 +28583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 235.5 259.5422 0)
+			(at 234.95 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28115,7 +28593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 235.5 259.5422 0)
+			(at 234.95 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28125,7 +28603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 235.5 259.5422 0)
+			(at 234.95 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28148,7 +28626,7 @@
 	)
 	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:VCC3P3_BAR")
-		(at 338.582 64.0842 180)
+		(at 323.88 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28158,7 +28636,7 @@
 		(dnp no)
 		(uuid "563b87e9-7097-41be-872a-8d0936c4ec92")
 		(property "Reference" "#PWR0163"
-			(at 338.582 64.0842 0)
+			(at 323.88 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28169,7 +28647,7 @@
 			)
 		)
 		(property "Value" "VCC3P3"
-			(at 338.582 60.2742 0)
+			(at 323.88 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28179,7 +28657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 338.582 64.0842 0)
+			(at 323.88 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28189,7 +28667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 338.582 64.0842 0)
+			(at 323.88 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28199,7 +28677,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 338.582 64.0842 0)
+			(at 323.88 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28296,7 +28774,7 @@
 	)
 	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:VCC5P0_BAR")
-		(at 327.582 61.5442 180)
+		(at 312.88 59.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28306,7 +28784,7 @@
 		(dnp no)
 		(uuid "5a376f5e-d344-4c92-9c4f-463210b72f3b")
 		(property "Reference" "#PWR0161"
-			(at 327.582 61.5442 0)
+			(at 312.88 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28317,7 +28795,7 @@
 			)
 		)
 		(property "Value" "VCC5P0"
-			(at 327.582 57.7342 0)
+			(at 312.88 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28327,7 +28805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.582 61.5442 0)
+			(at 312.88 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28337,7 +28815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.582 61.5442 0)
+			(at 312.88 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28347,7 +28825,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.582 61.5442 0)
+			(at 312.88 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29001,6 +29479,648 @@
 			(project "sband_transmitter"
 				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LimeMicroAltiumLib_schLib:root_2_Header5P_LimeMicroAltiumLib_schLib.SchLib")
+		(at 350.52 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5da03bb1-c075-4462-be7d-873201b4adf9")
+		(property "Reference" "J15"
+			(at 345.44 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FPGA EGPIO (board edge)"
+			(at 343.6 74.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal"
+			(at 350.52 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN HEADER SMD R/A 5POS 1.25MM"
+			(at 350.52 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 345.44 56.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "609-4726-ND"
+			(at 345.44 56.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol FCI"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 1" "69190-405HLF"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROHS" "RoHS Compliant"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CATEGORY" "Connectors, Interconnects"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "STOCK 1" "2326"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PRICING 1" "1=0.28, 10=0.26, 100=0.1799, 500=0.15224, 1000=0.12456, 5000=0.11072, 10000=0.10034 (USD)"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PACKAGING" "Bulk"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PART STATUS" "Active"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONNECTOR TYPE" "Header"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT TYPE" "Male Pin"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PITCH - MATING" "0.100\" (2.54mm)"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "STYLE" "Board to Board"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SHROUDING" "Unshrouded"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "5"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS LOADED" "All"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF ROWS" "1"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROW SPACING - MATING" "-"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MOUNTING TYPE" "Through Hole"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TERMINATION" "Press-Fit, Solder"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FASTENING TYPE" "Push-Pull"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT LENGTH - MATING" "0.230\" (5.84mm)"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT LENGTH - POST" "0.120\" (3.05mm)"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "OVERALL CONTACT LENGTH" "0.450\" (11.43mm)"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "INSULATION HEIGHT" "0.100\" (2.54mm)"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT SHAPE" "Square"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT FINISH - MATING" "Tin"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT FINISH THICKNESS - MATING" "100µin (2.54µm)"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT FINISH - POST" "Tin"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT MATERIAL" "Phosphor Bronze"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "INSULATION MATERIAL" "Polycyclohexylenedimethylene Terephthalate (PCT), Glass Filled"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FEATURES" "-"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "OPERATING TEMPERATURE" "-"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "INGRESS PROTECTION" "-"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MATERIAL FLAMMABILITY RATING" "UL94 V-0"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "INSULATION COLOR" "Black"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CURRENT RATING" "-"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "-"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MATED STACKING HEIGHTS" "-"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT FINISH THICKNESS - POST" "-"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "APPLICATIONS" "-"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "COMPONENTLINK1URL" "http://portal.fciconnect.com/Comergent//fci/drawing/69190.pdf"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "http://portal.fciconnect.com/Comergent//fci/drawing/69190.pdf"
+			(at 345.44 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PART DESCRIPTION" "5 Positions Header Connector 0.100\" (2.54mm) Through Hole Tin"
+			(at 345.44 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ASSEMBLY INFO" "NF"
+			(at 345.47 76.962 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "c2a27a7c-ef4f-47a5-ba7e-f29f724280e8")
+		)
+		(pin "3"
+			(uuid "b3096c0f-168d-435d-b329-f9103ed8f642")
+		)
+		(pin "4"
+			(uuid "7ca9732c-f6b0-47ad-aac0-6763504b04d8")
+		)
+		(pin "5"
+			(uuid "5832ab22-0304-4b72-9383-a3f0a9afafbb")
+		)
+		(pin "2"
+			(uuid "366b51f9-ef0d-4278-bf8b-13b79fca6b3c")
+		)
+		(instances
+			(project "sband_transmitter"
+				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -32136,7 +33256,7 @@
 	)
 	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:VCC3P3_BAR")
-		(at 258.5 251.8922 180)
+		(at 259.08 246.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32146,7 +33266,7 @@
 		(dnp no)
 		(uuid "6d6f5d19-ee8f-4a9c-b80c-951eed415927")
 		(property "Reference" "#PWR0138"
-			(at 258.5 251.8922 0)
+			(at 259.08 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32157,7 +33277,7 @@
 			)
 		)
 		(property "Value" "VCC3P3"
-			(at 258.5 248.0822 0)
+			(at 259.08 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32167,7 +33287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 258.5 251.8922 0)
+			(at 259.08 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32177,7 +33297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 258.5 251.8922 0)
+			(at 259.08 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32187,7 +33307,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 258.5 251.8922 0)
+			(at 259.08 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32785,7 +33905,7 @@
 	)
 	(symbol
 		(lib_id "LimeMicroAltiumLib_schLib_r03:root_0_LFE5U-25F-MG285_LimeMicroAltiumLib_schLib_r03.SchLib")
-		(at 112.5 69.0522 90)
+		(at 113.03 68.58 90)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32795,7 +33915,7 @@
 		(dnp no)
 		(uuid "71aaf92e-e0d2-43c7-9a0d-7702551fa118")
 		(property "Reference" "IC7"
-			(at 112.5 69.0522 90)
+			(at 113.03 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32806,7 +33926,7 @@
 			)
 		)
 		(property "Value" "LFE5U-45F-MG285"
-			(at 112.5 145.2522 90)
+			(at 113.03 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32817,7 +33937,7 @@
 			)
 		)
 		(property "Footprint" "LFE5U-25F-8MG285C_LATTICE_FPGA"
-			(at 112.5 69.0522 0)
+			(at 113.03 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32828,7 +33948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 112.5 69.0522 0)
+			(at 113.03 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32839,7 +33959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 112.5 69.0522 0)
+			(at 113.03 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32850,7 +33970,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "series Field Programmable Gate Array (FPGA) IC 118 1990656 44000 285-LFBGA, CSPBGA"
-			(at 104.372 140.1722 90)
+			(at 104.902 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32862,7 +33982,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32874,7 +33994,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "LFE5U-45F-6MG285C-ND"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32886,7 +34006,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Lattice Semiconductor"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32898,7 +34018,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" "LFE5U-45F-6MG285C"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32910,7 +34030,7 @@
 			)
 		)
 		(property "STOCK 1" "0"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32922,7 +34042,7 @@
 			)
 		)
 		(property "PRICING 1" "168=15,73000 (USD)"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32934,7 +34054,7 @@
 			)
 		)
 		(property "ROHS" "Yes"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32946,7 +34066,7 @@
 			)
 		)
 		(property "MOUNT" "Surface Mount"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32958,7 +34078,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "TFBGA"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32970,7 +34090,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "0°C"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32982,7 +34102,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "85°C"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32994,7 +34114,7 @@
 			)
 		)
 		(property "NUMBER OF LOGIC BLOCKS (LABS)" "11000"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33006,7 +34126,7 @@
 			)
 		)
 		(property "NUMBER OF LOGIC ELEMENTS/CELLS" "44000"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33018,7 +34138,7 @@
 			)
 		)
 		(property "RAM SIZE" "1990656b"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33030,7 +34150,7 @@
 			)
 		)
 		(property "NUMBER OF I/OS" "118"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33042,7 +34162,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "No"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33054,7 +34174,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.latticesemi.com/view_document?document_id=50461&src-supplier=Digi-Key"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33066,7 +34186,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.latticesemi.com/view_document?document_id=50461&src-supplier=Digi-Key"
-			(at 104.372 64.5122 90)
+			(at 104.902 64.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33078,7 +34198,7 @@
 			)
 		)
 		(property "ASSEMBLY INFO" ""
-			(at 112.5 147.7922 90)
+			(at 113.03 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35672,7 +36792,7 @@
 	)
 	(symbol
 		(lib_id "LimeFPGAboard_schLib:root_3_Res_0402_LimeFPGAboard_schLib.SchLib")
-		(at 245.5 274.7022 0)
+		(at 245.11 274.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35682,7 +36802,7 @@
 		(dnp no)
 		(uuid "7bf16b5e-f68c-4887-8a03-b71683d3e5e8")
 		(property "Reference" "R52"
-			(at 246.754 273.9882 0)
+			(at 246.364 273.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35693,7 +36813,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 246.754 276.5282 0)
+			(at 246.364 276.066 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35704,7 +36824,7 @@
 			)
 		)
 		(property "Footprint" "RES0402"
-			(at 245.5 274.7022 0)
+			(at 245.11 274.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35715,7 +36835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.5 274.7022 0)
+			(at 245.11 274.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35726,7 +36846,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.5 274.7022 0)
+			(at 245.11 274.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35737,7 +36857,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35749,7 +36869,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "311-4.7KLRCT-ND"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35761,7 +36881,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35773,7 +36893,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" "RC0402FR-074K7L"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35785,7 +36905,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35797,7 +36917,7 @@
 			)
 		)
 		(property "CATEGORY" "Resistors"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35809,7 +36929,7 @@
 			)
 		)
 		(property "STOCK 1" "4788231"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35821,7 +36941,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.1, 10=0.014, 100=0.0056, 1000=0.00253, 2500=0.0022, 5000=0.00181 (USD)"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35833,7 +36953,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35845,7 +36965,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35857,7 +36977,7 @@
 			)
 		)
 		(property "TOLERANCE" "±1%"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35869,7 +36989,7 @@
 			)
 		)
 		(property "POWER (WATTS)" "0.063W, 1/16W"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35881,7 +37001,7 @@
 			)
 		)
 		(property "COMPOSITION" "Thick Film"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35893,7 +37013,7 @@
 			)
 		)
 		(property "FEATURES" "Moisture Resistant"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35905,7 +37025,7 @@
 			)
 		)
 		(property "TEMPERATURE COEFFICIENT" "±100ppm/°C"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35917,7 +37037,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 155°C"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35929,7 +37049,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "0402 (1005 Metric)"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35941,7 +37061,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "0402"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35953,7 +37073,7 @@
 			)
 		)
 		(property "SIZE / DIMENSION" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35965,7 +37085,7 @@
 			)
 		)
 		(property "HEIGHT - SEATED (MAX)" "0.016\" (0.40mm)"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35977,7 +37097,7 @@
 			)
 		)
 		(property "FAILURE RATE" "-"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35989,7 +37109,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36001,7 +37121,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36013,7 +37133,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "4K7, 1%"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36025,7 +37145,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 244.246 269.1942 0)
+			(at 243.856 268.732 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36037,7 +37157,7 @@
 			)
 		)
 		(property "ASSEMBLY INFO" ""
-			(at 246.754 279.0682 0)
+			(at 246.364 278.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36492,6 +37612,155 @@
 			(project "sband_transmitter"
 				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
 					(reference "C116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LimeSDR-Mini_2v4-altium-import:GND_POWER_GROUND")
+		(at 369.599 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "842ffb00-b298-43f6-a835-448acad036e9")
+		(property "Reference" "#PWR0174"
+			(at 369.599 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 375.949 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.599 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.599 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 369.599 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "7ae6f318-13bb-4e6f-8d01-12b2cbb37ce6")
+		)
+		(instances
+			(project "sband_transmitter"
+				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LimeSDR-Mini_2v4-altium-import:VCC3P3_BAR")
+		(at 242.57 306.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84bde33b-94c4-4022-9105-92119504963b")
+		(property "Reference" "#PWR0169"
+			(at 242.57 306.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC3P3"
+			(at 242.57 302.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 306.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 306.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 306.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b44d148f-3f0b-4825-89cf-a8f5fd7143a3")
+		)
+		(instances
+			(project "sband_transmitter"
+				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -37286,6 +38555,80 @@
 	)
 	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:GND_POWER_GROUND")
+		(at 238.76 318.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d89e477-055f-4a5b-b9ae-71179776e785")
+		(property "Reference" "#PWR0166"
+			(at 238.76 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 325.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 318.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 318.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 318.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "21cdf0d5-5e9d-43fd-8435-4ca313a42f10")
+		)
+		(instances
+			(project "sband_transmitter"
+				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LimeSDR-Mini_2v4-altium-import:GND_POWER_GROUND")
 		(at 384.556 250.5202 0)
 		(unit 1)
 		(body_style 1)
@@ -37434,7 +38777,7 @@
 	)
 	(symbol
 		(lib_id "LimeMicroAltiumLib_schLib:root_2_Header5P_LimeMicroAltiumLib_schLib.SchLib")
-		(at 319.502 74.2442 270)
+		(at 304.8 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37444,7 +38787,7 @@
 		(dnp no)
 		(uuid "9cbd53c7-6aa6-466b-b22b-8aa28ad15c49")
 		(property "Reference" "J4"
-			(at 314.422 76.7842 90)
+			(at 299.72 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37455,7 +38798,7 @@
 			)
 		)
 		(property "Value" "FPGA EGPIO (board edge)"
-			(at 312.582 76.7042 90)
+			(at 297.88 74.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37467,7 +38810,7 @@
 			)
 		)
 		(property "Footprint" "Header5x1_TH_v2"
-			(at 319.502 74.2442 0)
+			(at 304.8 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37478,7 +38821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 319.502 74.2442 0)
+			(at 304.8 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37489,7 +38832,7 @@
 			)
 		)
 		(property "Description" "Header, 5-pin"
-			(at 319.502 74.2442 0)
+			(at 304.8 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37500,7 +38843,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 314.422 58.7442 90)
+			(at 299.72 56.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37512,7 +38855,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "609-4726-ND"
-			(at 314.422 58.7442 90)
+			(at 299.72 56.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37524,7 +38867,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amphenol FCI"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37536,7 +38879,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" "69190-405HLF"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37548,7 +38891,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37560,7 +38903,7 @@
 			)
 		)
 		(property "CATEGORY" "Connectors, Interconnects"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37572,7 +38915,7 @@
 			)
 		)
 		(property "STOCK 1" "2326"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37584,7 +38927,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.28, 10=0.26, 100=0.1799, 500=0.15224, 1000=0.12456, 5000=0.11072, 10000=0.10034 (USD)"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37596,7 +38939,7 @@
 			)
 		)
 		(property "PACKAGING" "Bulk"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37608,7 +38951,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37620,7 +38963,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" "Header"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37632,7 +38975,7 @@
 			)
 		)
 		(property "CONTACT TYPE" "Male Pin"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37644,7 +38987,7 @@
 			)
 		)
 		(property "PITCH - MATING" "0.100\" (2.54mm)"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37656,7 +38999,7 @@
 			)
 		)
 		(property "STYLE" "Board to Board"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37668,7 +39011,7 @@
 			)
 		)
 		(property "SHROUDING" "Unshrouded"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37680,7 +39023,7 @@
 			)
 		)
 		(property "NUMBER OF POSITIONS" "5"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37692,7 +39035,7 @@
 			)
 		)
 		(property "NUMBER OF POSITIONS LOADED" "All"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37704,7 +39047,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" "1"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37716,7 +39059,7 @@
 			)
 		)
 		(property "ROW SPACING - MATING" "-"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37728,7 +39071,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Through Hole"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37740,7 +39083,7 @@
 			)
 		)
 		(property "TERMINATION" "Press-Fit, Solder"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37752,7 +39095,7 @@
 			)
 		)
 		(property "FASTENING TYPE" "Push-Pull"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37764,7 +39107,7 @@
 			)
 		)
 		(property "CONTACT LENGTH - MATING" "0.230\" (5.84mm)"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37776,7 +39119,7 @@
 			)
 		)
 		(property "CONTACT LENGTH - POST" "0.120\" (3.05mm)"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37788,7 +39131,7 @@
 			)
 		)
 		(property "OVERALL CONTACT LENGTH" "0.450\" (11.43mm)"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37800,7 +39143,7 @@
 			)
 		)
 		(property "INSULATION HEIGHT" "0.100\" (2.54mm)"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37812,7 +39155,7 @@
 			)
 		)
 		(property "CONTACT SHAPE" "Square"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37824,7 +39167,7 @@
 			)
 		)
 		(property "CONTACT FINISH - MATING" "Tin"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37836,7 +39179,7 @@
 			)
 		)
 		(property "CONTACT FINISH THICKNESS - MATING" "100µin (2.54µm)"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37848,7 +39191,7 @@
 			)
 		)
 		(property "CONTACT FINISH - POST" "Tin"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37860,7 +39203,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" "Phosphor Bronze"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37872,7 +39215,7 @@
 			)
 		)
 		(property "INSULATION MATERIAL" "Polycyclohexylenedimethylene Terephthalate (PCT), Glass Filled"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37884,7 +39227,7 @@
 			)
 		)
 		(property "FEATURES" "-"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37896,7 +39239,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37908,7 +39251,7 @@
 			)
 		)
 		(property "INGRESS PROTECTION" "-"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37920,7 +39263,7 @@
 			)
 		)
 		(property "MATERIAL FLAMMABILITY RATING" "UL94 V-0"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37932,7 +39275,7 @@
 			)
 		)
 		(property "INSULATION COLOR" "Black"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37944,7 +39287,7 @@
 			)
 		)
 		(property "CURRENT RATING" "-"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37956,7 +39299,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "-"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37968,7 +39311,7 @@
 			)
 		)
 		(property "MATED STACKING HEIGHTS" "-"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37980,7 +39323,7 @@
 			)
 		)
 		(property "CONTACT FINISH THICKNESS - POST" "-"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37992,7 +39335,7 @@
 			)
 		)
 		(property "APPLICATIONS" "-"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38004,7 +39347,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://portal.fciconnect.com/Comergent//fci/drawing/69190.pdf"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38016,7 +39359,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://portal.fciconnect.com/Comergent//fci/drawing/69190.pdf"
-			(at 314.422 56.2042 90)
+			(at 299.72 54.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38028,7 +39371,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "5 Positions Header Connector 0.100\" (2.54mm) Through Hole Tin"
-			(at 314.422 79.3242 90)
+			(at 299.72 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38040,7 +39383,7 @@
 			)
 		)
 		(property "ASSEMBLY INFO" "NF"
-			(at 314.452 78.8162 90)
+			(at 299.75 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38635,6 +39978,390 @@
 			(project "sband_transmitter"
 				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LimeMicroAltiumLib_schLib:root_2_Header7P_LimeMicroAltiumLib_schLib.SchLib")
+		(at 229.87 300.99 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2e07b0a-13f6-4a3d-b605-fbc69fff6f34")
+		(property "Reference" "J12"
+			(at 224.79 321.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FPGA JTAG (board edge)"
+			(at 222.95 299.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0771_1x07-1MP_P1.25mm_Horizontal"
+			(at 229.87 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN HEADER SMD R/A 7POS 1.25MM"
+			(at 229.87 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "COLOR" "Black"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PACKAGING" "Bulk"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS LOADED" "All"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CATEGORY" "Connectors, Interconnects"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Sullins Connector Solutions"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT FINISH" "Tin"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF ROWS" "1"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 1" "PEC07SAAN"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROHS" "RoHS Compliant"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT TYPE" "Male Pin"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MOUNTING TYPE" "Through Hole"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PITCH" "0.100\" (2.54mm)"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "7"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FEATURES" "-"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT MATING LENGTH" "0.230\" (5.84mm)"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONNECTOR TYPE" "Header, Unshrouded, Breakaway"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TERMINATION" "Solder"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FASTENING TYPE" "-"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT FINISH THICKNESS" "100µin (2.54µm)"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROW SPACING" "-"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "S1012E-07-ND"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PART DESCRIPTION" "7 Positions Header, Unshrouded, Breakaway Connector 0.100\" (2.54mm) Through Hole Tin"
+			(at 224.79 321.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ASSEMBLY INFO" "NF"
+			(at 224.949 298.729 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "fa6fa574-fa4b-48f7-a35e-fa7e4308da78")
+		)
+		(pin "3"
+			(uuid "305ebd9c-9234-4d12-9e72-3a0d54c8ba10")
+		)
+		(pin "4"
+			(uuid "d8e935bc-1e5a-4729-9c45-493b002a275a")
+		)
+		(pin "7"
+			(uuid "cafe46c8-2601-4cc8-8767-dc410f806da3")
+		)
+		(pin "6"
+			(uuid "a0566ea6-710a-4860-8ad5-8ed757c37cd8")
+		)
+		(pin "5"
+			(uuid "21682fb5-0c78-4496-8da6-0a665bb51509")
+		)
+		(pin "2"
+			(uuid "579a4492-0d1e-4ce8-881d-62db7c91df29")
+		)
+		(instances
+			(project "sband_transmitter"
+				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -39885,7 +41612,7 @@
 	)
 	(symbol
 		(lib_id "LimeFPGAboard_schLib:root_3_Res_0402_LimeFPGAboard_schLib.SchLib")
-		(at 258.5 256.8922 0)
+		(at 259.08 256.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39895,7 +41622,7 @@
 		(dnp no)
 		(uuid "a6b6e6cc-7652-4d36-a7cf-3d911ad1ccb7")
 		(property "Reference" "R50"
-			(at 259.754 256.1782 0)
+			(at 260.334 255.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39906,7 +41633,7 @@
 			)
 		)
 		(property "Value" "${ALTIUM_VALUE}"
-			(at 259.754 258.7182 0)
+			(at 260.334 258.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39917,7 +41644,7 @@
 			)
 		)
 		(property "Footprint" "RES0402"
-			(at 258.5 256.8922 0)
+			(at 259.08 256.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39928,7 +41655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 258.5 256.8922 0)
+			(at 259.08 256.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39939,7 +41666,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 258.5 256.8922 0)
+			(at 259.08 256.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39950,7 +41677,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39962,7 +41689,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "311-4.7KLRCT-ND"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39974,7 +41701,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39986,7 +41713,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" "RC0402FR-074K7L"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39998,7 +41725,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40010,7 +41737,7 @@
 			)
 		)
 		(property "CATEGORY" "Resistors"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40022,7 +41749,7 @@
 			)
 		)
 		(property "STOCK 1" "4788231"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40034,7 +41761,7 @@
 			)
 		)
 		(property "PRICING 1" "1=0.1, 10=0.014, 100=0.0056, 1000=0.00253, 2500=0.0022, 5000=0.00181 (USD)"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40046,7 +41773,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape (CT)"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40058,7 +41785,7 @@
 			)
 		)
 		(property "PART STATUS" "Active"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40070,7 +41797,7 @@
 			)
 		)
 		(property "TOLERANCE" "±1%"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40082,7 +41809,7 @@
 			)
 		)
 		(property "POWER (WATTS)" "0.063W, 1/16W"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40094,7 +41821,7 @@
 			)
 		)
 		(property "COMPOSITION" "Thick Film"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40106,7 +41833,7 @@
 			)
 		)
 		(property "FEATURES" "Moisture Resistant"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40118,7 +41845,7 @@
 			)
 		)
 		(property "TEMPERATURE COEFFICIENT" "±100ppm/°C"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40130,7 +41857,7 @@
 			)
 		)
 		(property "OPERATING TEMPERATURE" "-55°C ~ 155°C"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40142,7 +41869,7 @@
 			)
 		)
 		(property "PACKAGE / CASE" "0402 (1005 Metric)"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40154,7 +41881,7 @@
 			)
 		)
 		(property "SUPPLIER DEVICE PACKAGE" "0402"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40166,7 +41893,7 @@
 			)
 		)
 		(property "SIZE / DIMENSION" "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40178,7 +41905,7 @@
 			)
 		)
 		(property "HEIGHT - SEATED (MAX)" "0.016\" (0.40mm)"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40190,7 +41917,7 @@
 			)
 		)
 		(property "FAILURE RATE" "-"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40202,7 +41929,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40214,7 +41941,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40226,7 +41953,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "4K7, 1%"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40238,7 +41965,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 257.246 251.3842 0)
+			(at 257.826 250.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40250,7 +41977,7 @@
 			)
 		)
 		(property "ASSEMBLY INFO" ""
-			(at 259.754 261.2582 0)
+			(at 260.334 260.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40270,6 +41997,80 @@
 			(project "sband_transmitter"
 				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LimeSDR-Mini_2v4-altium-import:VCC3P3_BAR")
+		(at 369.6 62.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7f4e88c-5952-42e4-9bba-db41bb1fc9f0")
+		(property "Reference" "#PWR0316"
+			(at 369.6 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC3P3"
+			(at 369.6 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.6 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.6 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 369.6 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4ad93d28-4869-4283-b6cf-4e6d0c2c2010")
+		)
+		(instances
+			(project "sband_transmitter"
+				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -41405,7 +43206,7 @@
 	)
 	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:GND_POWER_GROUND")
-		(at 245.5 279.8922 0)
+		(at 245.11 279.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41415,7 +43216,7 @@
 		(dnp no)
 		(uuid "b7424103-f6af-4749-8589-dc5f425e6074")
 		(property "Reference" "#PWR0132"
-			(at 245.5 279.8922 0)
+			(at 245.11 279.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41426,7 +43227,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.5 286.2422 0)
+			(at 245.11 285.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41436,7 +43237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.5 279.8922 0)
+			(at 245.11 279.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41446,7 +43247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.5 279.8922 0)
+			(at 245.11 279.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41456,7 +43257,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.5 279.8922 0)
+			(at 245.11 279.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42005,7 +43806,7 @@
 	)
 	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:VCC5P0_BAR")
-		(at 230 257.0022 180)
+		(at 229.87 256.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42015,7 +43816,7 @@
 		(dnp no)
 		(uuid "bc15ac36-7c1d-478b-829e-fa0ee34ecaaf")
 		(property "Reference" "#PWR0127"
-			(at 230 257.0022 0)
+			(at 229.87 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42026,7 +43827,7 @@
 			)
 		)
 		(property "Value" "VCC5P0"
-			(at 230 253.1922 0)
+			(at 229.87 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42036,7 +43837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 230 257.0022 0)
+			(at 229.87 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42046,7 +43847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 230 257.0022 0)
+			(at 229.87 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42056,7 +43857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 230 257.0022 0)
+			(at 229.87 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45917,6 +47718,80 @@
 		)
 	)
 	(symbol
+		(lib_id "LimeSDR-Mini_2v4-altium-import:VCC5P0_BAR")
+		(at 358.6 59.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d26b553a-6039-4280-8866-9bf2fe3cd1da")
+		(property "Reference" "#PWR0171"
+			(at 358.6 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC5P0"
+			(at 358.6 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.6 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.6 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 358.6 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2ebb4669-0a64-400e-8388-089ff69cfa62")
+		)
+		(instances
+			(project "sband_transmitter"
+				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:GND_POWER_GROUND")
 		(at 237.5 112.5022 0)
 		(unit 1)
@@ -47911,7 +49786,7 @@
 	)
 	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:VCC3P3_BAR")
-		(at 104.88 135.0922 180)
+		(at 105.41 134.62 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -47921,7 +49796,7 @@
 		(dnp no)
 		(uuid "e921f6c3-6eba-4829-92d7-dd88481db919")
 		(property "Reference" "#PWR0112"
-			(at 104.88 135.0922 0)
+			(at 105.41 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47932,7 +49807,7 @@
 			)
 		)
 		(property "Value" "VCC3P3"
-			(at 104.88 131.2822 0)
+			(at 105.41 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47942,7 +49817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.88 135.0922 0)
+			(at 105.41 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47952,7 +49827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.88 135.0922 0)
+			(at 105.41 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47962,7 +49837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.88 135.0922 0)
+			(at 105.41 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
