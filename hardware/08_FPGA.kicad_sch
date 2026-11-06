@@ -8078,7 +8078,7 @@
 	)
 	(text "B7 (3.3V)"
 		(exclude_from_sim no)
-		(at 129 184.3122 90)
+		(at 129.54 184.15 90)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -8728,8 +8728,8 @@
 	)
 	(text_box "FPGA_GPIO[7:4] are shared with TX and RX LEDs. Remove solder (or jumper resistors) from solder bridges to disconnect LEDs from GPIOs lines."
 		(exclude_from_sim no)
-		(at 242.5 81.7722 0)
-		(size -40.5 16.602)
+		(at 202 81.7722 0)
+		(size 40.5 16.602)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -9004,6 +9004,12 @@
 		(uuid "3a5ae8ae-5994-40b3-be11-6ecb5e9a7012")
 	)
 	(junction
+		(at 246 73.5022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c989a5d-d53f-41b7-92b7-01746ef17de7")
+	)
+	(junction
 		(at 341.352 240.2442)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9158,12 +9164,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cdf5999-192e-4cb4-ac90-8baf8345c00c")
-	)
-	(junction
-		(at 246 73.5022)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "625b12ad-91af-4703-bd6a-714970eee15f")
 	)
 	(junction
 		(at 341.352 209.7642)
@@ -9532,7 +9532,7 @@
 		(uuid "bfcb9eaa-5b3b-4949-a9a7-bdb30b583447")
 	)
 	(junction
-		(at 112.5 195.7722)
+		(at 113.03 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0df0134-e20e-4186-b005-0c0fa7cf13e7")
@@ -9945,6 +9945,26 @@
 	)
 	(wire
 		(pts
+			(xy 225.35 64.77) (xy 224.79 64.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae80f81-4ae6-4409-b5cb-af5432c0206e")
+	)
+	(wire
+		(pts
+			(xy 402.59 59.69) (xy 408.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bbcc76d-d5c0-4022-be00-fbe18750706c")
+	)
+	(wire
+		(pts
 			(xy 67.5 268.5122) (xy 90 268.5122)
 		)
 		(stroke
@@ -9975,7 +9995,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 185.6122) (xy 175 185.6122)
+			(xy 161.29 185.42) (xy 180.34 185.42)
 		)
 		(stroke
 			(width 0)
@@ -10005,7 +10025,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 195.7722) (xy 175 195.7722)
+			(xy 161.29 195.58) (xy 175.26 195.58)
 		)
 		(stroke
 			(width 0)
@@ -10073,6 +10093,16 @@
 		)
 		(uuid "157839ad-ba56-45ee-ba1f-313469e78f82")
 	)
+	(wire
+		(pts
+			(xy 241.3 54.61) (xy 241.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1648813f-d87d-4b81-9310-85a6266069e0")
+	)
 	(polyline
 		(pts
 			(xy 271.78 276.6822) (xy 271.78 291.9222)
@@ -10096,7 +10126,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 190.6922) (xy 175 190.6922)
+			(xy 161.29 190.5) (xy 175.26 190.5)
 		)
 		(stroke
 			(width 0)
@@ -10113,6 +10143,16 @@
 			(type default)
 		)
 		(uuid "17ae1259-8667-481d-ac31-8529472c7148")
+	)
+	(wire
+		(pts
+			(xy 402.59 64.77) (xy 408.94 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ed1a0a-4f88-4946-b847-af0a711d5eb7")
 	)
 	(wire
 		(pts
@@ -10176,16 +10216,6 @@
 	)
 	(wire
 		(pts
-			(xy 239.5 64.5022) (xy 225.5 64.5022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c713342-8110-4493-96b6-43ee38620ce3")
-	)
-	(wire
-		(pts
 			(xy 341.352 227.5442) (xy 341.352 230.0842)
 		)
 		(stroke
@@ -10246,7 +10276,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 157.6722) (xy 175 157.6722)
+			(xy 161.29 157.48) (xy 175.26 157.48)
 		)
 		(stroke
 			(width 0)
@@ -10306,7 +10336,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.5 61.5022) (xy 225.5 61.5022)
+			(xy 225.35 60.96) (xy 241.3 60.96)
 		)
 		(stroke
 			(width 0)
@@ -10316,7 +10346,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 175.4522) (xy 175 175.4522)
+			(xy 161.29 175.26) (xy 175.26 175.26)
 		)
 		(stroke
 			(width 0)
@@ -10326,7 +10356,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 193.2322) (xy 175 193.2322)
+			(xy 161.29 193.04) (xy 175.26 193.04)
 		)
 		(stroke
 			(width 0)
@@ -10416,7 +10446,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 188.1522) (xy 175 188.1522)
+			(xy 161.29 187.96) (xy 175.26 187.96)
 		)
 		(stroke
 			(width 0)
@@ -10456,7 +10486,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 177.9922) (xy 175 177.9922)
+			(xy 161.29 177.8) (xy 175.26 177.8)
 		)
 		(stroke
 			(width 0)
@@ -10466,7 +10496,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 172.9122) (xy 175 172.9122)
+			(xy 161.29 172.72) (xy 175.26 172.72)
 		)
 		(stroke
 			(width 0)
@@ -10536,7 +10566,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 91.44) (xy 175.26 91.44)
+			(xy 161.29 91.44) (xy 181.61 91.44)
 		)
 		(stroke
 			(width 0)
@@ -10546,7 +10576,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 155.1322) (xy 175 155.1322)
+			(xy 161.29 154.94) (xy 175.26 154.94)
 		)
 		(stroke
 			(width 0)
@@ -10586,7 +10616,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.5 64.5022) (xy 193.5 64.5022)
+			(xy 206.79 64.31) (xy 193.04 64.77)
 		)
 		(stroke
 			(width 0)
@@ -10757,7 +10787,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.5 61.5022) (xy 193.5 61.5022)
+			(xy 206.79 61.31) (xy 193.04 60.96)
 		)
 		(stroke
 			(width 0)
@@ -10868,6 +10898,16 @@
 	)
 	(wire
 		(pts
+			(xy 225.35 64.77) (xy 240.03 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f7d53b-6662-4e16-8909-09ed6c3319b0")
+	)
+	(wire
+		(pts
 			(xy 14.16 278.6722) (xy 14.16 273.5922)
 		)
 		(stroke
@@ -10960,7 +11000,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 88.9) (xy 175.26 88.9)
+			(xy 161.29 88.9) (xy 181.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11010,7 +11050,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 180.5322) (xy 175 180.5322)
+			(xy 161.29 180.34) (xy 175.26 180.34)
 		)
 		(stroke
 			(width 0)
@@ -11030,7 +11070,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 162.7522) (xy 175 162.7522)
+			(xy 161.29 162.56) (xy 175.26 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11188,6 +11228,16 @@
 			(type default)
 		)
 		(uuid "5cfa43d7-ba39-425b-b394-5db4c47703d0")
+	)
+	(wire
+		(pts
+			(xy 225.35 60.96) (xy 224.79 61.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d954162-be67-44ba-ab93-02b54fd7b1fd")
 	)
 	(wire
 		(pts
@@ -11392,7 +11442,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 73.66) (xy 175.26 73.66)
+			(xy 161.29 73.66) (xy 181.61 73.66)
 		)
 		(stroke
 			(width 0)
@@ -11402,13 +11452,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 152.5922) (xy 175 152.5922)
+			(xy 161.29 152.4) (xy 175.26 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f6464ff-eae8-4bd2-b199-64437d05d6cf")
+	)
+	(wire
+		(pts
+			(xy 228.6 73.31) (xy 228.6 75.0878)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6ef0ce-1969-4a38-ac0d-0462cc698a2e")
 	)
 	(wire
 		(pts
@@ -11419,6 +11479,16 @@
 			(type default)
 		)
 		(uuid "70013ae7-4493-4a09-87f7-bbf69d2899db")
+	)
+	(wire
+		(pts
+			(xy 228.6 75.0878) (xy 242.57 75.0878)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702d9888-05a0-49a4-b614-2438b1e5c247")
 	)
 	(wire
 		(pts
@@ -11592,6 +11662,26 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 75.0878) (xy 243.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db09955-916a-42cf-9e35-6f32e1973c12")
+	)
+	(wire
+		(pts
+			(xy 243.84 73.66) (xy 246 73.5022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb37346-52cc-4aab-b201-c09f40b058b3")
+	)
+	(wire
+		(pts
 			(xy 67.5 225.3322) (xy 90 225.3322)
 		)
 		(stroke
@@ -11642,16 +11732,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.5 67.5022) (xy 193.5 67.5022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "831b61cc-a2b9-4c85-94fc-26617092618c")
-	)
-	(wire
-		(pts
 			(xy 67.5 110.8922) (xy 90 110.8922)
 		)
 		(stroke
@@ -11693,7 +11773,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 167.8322) (xy 175 167.8322)
+			(xy 161.29 167.64) (xy 175.26 167.64)
 		)
 		(stroke
 			(width 0)
@@ -11773,7 +11853,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 183.0722) (xy 175 183.0722)
+			(xy 225.35 71.12) (xy 224.79 70.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b309d39-a828-439d-a3cc-6b3226945aa1")
+	)
+	(wire
+		(pts
+			(xy 161.29 182.88) (xy 175.26 182.88)
 		)
 		(stroke
 			(width 0)
@@ -11880,6 +11970,16 @@
 			(type default)
 		)
 		(uuid "9144b684-cfd8-4083-9bdd-448abc998ffd")
+	)
+	(wire
+		(pts
+			(xy 414.02 69.85) (xy 402.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ec7cc7-539c-4ae8-ad05-1d2b70f0ecc6")
 	)
 	(wire
 		(pts
@@ -12215,6 +12315,16 @@
 	)
 	(wire
 		(pts
+			(xy 206.79 67.31) (xy 193.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad386f96-7d4c-43db-a475-10983ce6ec4c")
+	)
+	(wire
+		(pts
 			(xy 341.352 209.7642) (xy 341.352 212.3042)
 		)
 		(stroke
@@ -12232,6 +12342,16 @@
 			(type default)
 		)
 		(uuid "adc433d9-a8e6-43f8-a009-bac77695e56e")
+	)
+	(wire
+		(pts
+			(xy 206.79 73.31) (xy 207.5 73.5022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec4b2cd-fc38-437f-81da-17024dc23995")
 	)
 	(wire
 		(pts
@@ -12265,7 +12385,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.5 198.3122) (xy 112.5 195.7722)
+			(xy 113.03 198.12) (xy 113.03 195.58)
 		)
 		(stroke
 			(width 0)
@@ -12293,6 +12413,16 @@
 		)
 		(uuid "b3d51928-c922-459f-a803-965c700a9cd0")
 	)
+	(wire
+		(pts
+			(xy 414.02 76.2) (xy 414.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42f6e1f-c5c6-4acf-b169-04f2688a5154")
+	)
 	(polyline
 		(pts
 			(xy 363.22 276.6822) (xy 271.78 276.6822)
@@ -12303,6 +12433,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "b4543f08-5d38-4afa-b989-53045f16a2bf")
+	)
+	(wire
+		(pts
+			(xy 190.5 53.34) (xy 193.04 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b478f015-6f90-4c56-97ab-07a83ea18c69")
 	)
 	(wire
 		(pts
@@ -12333,6 +12473,16 @@
 			(type default)
 		)
 		(uuid "b6092376-cb36-471f-af47-2397b584abeb")
+	)
+	(wire
+		(pts
+			(xy 190.5 53.34) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a5a845-6d84-4fb7-8673-61f441bd8d39")
 	)
 	(wire
 		(pts
@@ -12516,13 +12666,33 @@
 	)
 	(wire
 		(pts
-			(xy 207.5 70.5022) (xy 193.5 70.5022)
+			(xy 224.79 67.31) (xy 240.03 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c338dad0-bbb3-4561-a582-3dbf00a7fadb")
+	)
+	(wire
+		(pts
+			(xy 206.79 70.31) (xy 193.26 70.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c377f823-92e1-47f1-9d89-b884e0117047")
+	)
+	(wire
+		(pts
+			(xy 238.76 54.61) (xy 241.3 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39fa0c3-4623-4a12-8915-57ec8fb0597b")
 	)
 	(wire
 		(pts
@@ -12597,6 +12767,16 @@
 	)
 	(wire
 		(pts
+			(xy 402.59 62.23) (xy 408.94 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c889f5df-b5d4-485a-bdd8-03ae67f85293")
+	)
+	(wire
+		(pts
 			(xy 325.64 174.7022) (xy 325.64 177.2422)
 		)
 		(stroke
@@ -12604,16 +12784,6 @@
 			(type default)
 		)
 		(uuid "c941b839-4a12-49cb-a9dd-28cdc7255254")
-	)
-	(wire
-		(pts
-			(xy 239.5 67.5022) (xy 225.5 67.5022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c951f32c-6290-4fc9-8e2e-8e34b1d23f7f")
 	)
 	(wire
 		(pts
@@ -12667,7 +12837,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 170.3722) (xy 175 170.3722)
+			(xy 161.29 170.18) (xy 175.26 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12828,7 +12998,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 165.2922) (xy 175 165.2922)
+			(xy 161.29 165.1) (xy 175.26 165.1)
 		)
 		(stroke
 			(width 0)
@@ -12838,7 +13008,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.5 70.5022) (xy 225.5 70.5022)
+			(xy 240.03 71.12) (xy 225.35 71.12)
 		)
 		(stroke
 			(width 0)
@@ -12968,6 +13138,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 60.96) (xy 193.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53a4958-8d20-4e45-ae39-a35101670a82")
+	)
+	(wire
+		(pts
 			(xy 379.726 250.3982) (xy 384.556 250.3982)
 		)
 		(stroke
@@ -12975,6 +13155,16 @@
 			(type default)
 		)
 		(uuid "e53c7517-18a8-42dc-be48-cf5ba7bae3b9")
+	)
+	(wire
+		(pts
+			(xy 402.59 67.31) (xy 408.94 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b8c692-080c-4981-badf-ebb017e9ba39")
 	)
 	(wire
 		(pts
@@ -12988,7 +13178,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.76 160.2122) (xy 175 160.2122)
+			(xy 161.29 160.02) (xy 175.26 160.02)
 		)
 		(stroke
 			(width 0)
@@ -13128,7 +13318,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.5 73.5022) (xy 246 73.5022)
+			(xy 224.79 73.31) (xy 228.6 73.31)
 		)
 		(stroke
 			(width 0)
@@ -15019,7 +15209,7 @@
 		(uuid "0284096a-6a43-417d-9849-14cdd17bc64d")
 	)
 	(label "FT_D9"
-		(at 162 177.9922 0)
+		(at 162.56 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15069,7 +15259,7 @@
 		(uuid "0d890b42-ef7c-4fa3-8321-eda1cd17ce21")
 	)
 	(label "FT_D1"
-		(at 162 155.1722 0)
+		(at 162.56 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15099,7 +15289,7 @@
 		(uuid "10aa624e-56eb-48dd-ba1e-518a8fc84c84")
 	)
 	(label "FPGA_GPIO3"
-		(at 226.5 64.5022 0)
+		(at 227.33 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15139,7 +15329,7 @@
 		(uuid "1bfcf5f9-795f-4bd6-8b79-aeab9b63b8a8")
 	)
 	(label "FT_D20"
-		(at 162 167.8322 0)
+		(at 162.56 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15209,7 +15399,7 @@
 		(uuid "2a5bb64c-af49-40ef-9079-cf99deba49c0")
 	)
 	(label "FPGA_GPIO4"
-		(at 193.5 67.5022 0)
+		(at 193.04 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15229,7 +15419,7 @@
 		(uuid "2f007c52-6ba6-4553-9b06-1356c7744c82")
 	)
 	(label "FT_D15"
-		(at 162 172.9122 0)
+		(at 162.56 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15239,7 +15429,7 @@
 		(uuid "310dfc9f-b434-4295-8556-d404619f8405")
 	)
 	(label "FPGA_GPIO0"
-		(at 193.5 61.5022 0)
+		(at 193.04 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15249,7 +15439,7 @@
 		(uuid "381c4b20-270f-4b2b-b6f4-da880a5e3bcd")
 	)
 	(label "FPGA_GPIO7"
-		(at 226.5 70.5022 0)
+		(at 227.33 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15339,7 +15529,7 @@
 		(uuid "45ffeb77-c49d-432c-ba49-6e5dca8b1353")
 	)
 	(label "FT_D10"
-		(at 162 175.4522 0)
+		(at 162.56 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15379,7 +15569,7 @@
 		(uuid "4dc99bae-5879-4c20-94c5-e6dfdf9ff69b")
 	)
 	(label "FPGA_GPIO2"
-		(at 193.5 64.5022 0)
+		(at 193.04 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15419,7 +15609,7 @@
 		(uuid "531c2959-8eac-457d-abc8-190da43a7dd9")
 	)
 	(label "FT_D0"
-		(at 162 170.3722 0)
+		(at 162.56 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15459,7 +15649,7 @@
 		(uuid "5e6be3d1-aab5-4d17-95ca-905aed46a456")
 	)
 	(label "FT_D2"
-		(at 162 180.5322 0)
+		(at 162.56 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15489,7 +15679,7 @@
 		(uuid "6872cc55-25f3-435e-b162-b3a4725f9a3d")
 	)
 	(label "FT_D11"
-		(at 162 162.7522 0)
+		(at 162.56 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15549,7 +15739,7 @@
 		(uuid "719434ff-51ad-4c32-9919-fd68b320efcb")
 	)
 	(label "FT_D18"
-		(at 162 188.1522 0)
+		(at 162.56 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15599,7 +15789,7 @@
 		(uuid "7515db57-b9bf-41ee-8303-09ded6f9394a")
 	)
 	(label "FT_D5"
-		(at 162 157.6722 0)
+		(at 162.56 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15729,7 +15919,7 @@
 		(uuid "936e8584-301b-4917-82f3-5ec62f32fcf7")
 	)
 	(label "FT_D13"
-		(at 162 165.2922 0)
+		(at 162.56 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15789,7 +15979,7 @@
 		(uuid "9b689e1b-6eb4-4ae3-ab34-78a4953756df")
 	)
 	(label "FT_D16"
-		(at 162 190.6922 0)
+		(at 162.56 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15839,7 +16029,7 @@
 		(uuid "a0808a15-b3dd-4bb1-af3e-7ac94a7254ec")
 	)
 	(label "FT_D7"
-		(at 162 193.2322 0)
+		(at 162.56 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15869,7 +16059,7 @@
 		(uuid "a8f5d670-4e04-412a-be80-5aa4219e59c7")
 	)
 	(label "FPGA_GPIO5"
-		(at 226.5 67.5022 0)
+		(at 227.33 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15889,7 +16079,7 @@
 		(uuid "b13f94b6-ff3c-41e8-af2c-79034573aa4e")
 	)
 	(label "FT_D28"
-		(at 162 195.7722 0)
+		(at 162.56 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16019,7 +16209,7 @@
 		(uuid "d2adaa40-9248-45fa-b34b-14096fd619d7")
 	)
 	(label "FT_D25"
-		(at 162 160.2122 0)
+		(at 162.56 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16119,7 +16309,7 @@
 		(uuid "de3fe46f-2a08-4802-a1fe-230a28244d68")
 	)
 	(label "FT_D23"
-		(at 162 183.0722 0)
+		(at 162.56 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16199,7 +16389,7 @@
 		(uuid "e8c25614-583a-4036-b935-4e4981169b19")
 	)
 	(label "FPGA_GPIO6"
-		(at 193.5 70.5022 0)
+		(at 193.26 70.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16229,7 +16419,7 @@
 		(uuid "ec5cb39b-bbc9-46ef-9f16-572373c00082")
 	)
 	(label "FPGA_GPIO1"
-		(at 226.5 61.5022 0)
+		(at 227.33 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16249,7 +16439,7 @@
 		(uuid "eee407b1-b050-4269-b29a-b86d352387e1")
 	)
 	(label "FT_D4"
-		(at 162 185.6122 0)
+		(at 162.56 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16329,7 +16519,7 @@
 		(uuid "fa07ca32-713c-4718-a771-3407b3212c1e")
 	)
 	(label "FT_D3"
-		(at 162 152.5922 0)
+		(at 162.56 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16406,6 +16596,30 @@
 			)
 		)
 	)
+	(global_label "GPIO-2"
+		(shape output)
+		(at 181.61 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31ba0b9f-2a08-40ef-a23e-0f67cf62f654")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.8524 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "I2C_SCL_DATA"
 		(shape output)
 		(at 179.07 119.38 0)
@@ -16419,6 +16633,54 @@
 		(uuid "3220a471-d65b-4f70-8b75-118fc3db5fc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.9971 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO-1"
+		(shape output)
+		(at 180.34 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35fda732-5bdd-44b1-9fe5-b2bcdee28e6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5824 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO-4"
+		(shape output)
+		(at 181.61 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bc5be15-bbb2-4e77-8569-74c1931cbac9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.8524 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16454,6 +16716,78 @@
 			)
 		)
 	)
+	(global_label "GPIO-3"
+		(shape output)
+		(at 408.94 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b9fc833-87e6-4ecc-a89d-a9fc65459952")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 419.1824 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Driver-Enable"
+		(shape output)
+		(at 238.76 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "658adffb-7e40-41b4-b230-e5e69aade216")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.3492 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO-1"
+		(shape output)
+		(at 408.94 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c156765-fba3-40e5-a6d6-220fc24e3e26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 419.1824 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SPI_SCK_DATA"
 		(shape output)
 		(at 180.34 114.3 0)
@@ -16467,6 +16801,102 @@
 		(uuid "81639c9b-52ee-4639-a469-5c5785970c7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.509 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO-4"
+		(shape output)
+		(at 408.94 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "868b77ba-2f1a-443b-88ac-1ae11ae59c31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 419.1824 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO-3"
+		(shape output)
+		(at 181.61 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "950cbf42-3eb0-45bd-9d06-0d61253f79bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.8524 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO-2"
+		(shape output)
+		(at 408.94 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9e02edb-a85f-4bb0-9cfc-21d0b6b243e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 419.1824 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PA-Enable"
+		(shape output)
+		(at 193.04 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddebdf71-3ae0-44cd-9844-3fc909418e6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.306 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24841,7 +25271,7 @@
 	)
 	(symbol
 		(lib_id "LimeMicroAltiumLib_schLib_r03:root_0_LFE5U-25F-MG285_LimeMicroAltiumLib_schLib_r03.SchLib")
-		(at 120.12 150.0522 90)
+		(at 120.65 149.86 90)
 		(unit 6)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24851,7 +25281,7 @@
 		(dnp no)
 		(uuid "400de19d-78fb-444d-9be3-5ce43b1b025e")
 		(property "Reference" "IC7"
-			(at 120.12 150.0522 90)
+			(at 120.65 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24862,7 +25292,7 @@
 			)
 		)
 		(property "Value" "LFE5U-45F-MG285"
-			(at 120.12 205.9322 90)
+			(at 120.65 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24873,7 +25303,7 @@
 			)
 		)
 		(property "Footprint" "LFE5U-25F-8MG285C_LATTICE_FPGA"
-			(at 120.12 150.0522 0)
+			(at 120.65 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24884,7 +25314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.12 150.0522 0)
+			(at 120.65 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24895,7 +25325,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.12 150.0522 0)
+			(at 120.65 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24906,7 +25336,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "series Field Programmable Gate Array (FPGA) IC 118 1990656 44000 285-LFBGA, CSPBGA"
-			(at 111.992 221.1722 90)
+			(at 112.522 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24918,7 +25348,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24930,7 +25360,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "LFE5U-45F-6MG285C-ND"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24942,7 +25372,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Lattice Semiconductor"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24954,7 +25384,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" "LFE5U-45F-6MG285C"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24966,7 +25396,7 @@
 			)
 		)
 		(property "STOCK 1" "0"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24978,7 +25408,7 @@
 			)
 		)
 		(property "PRICING 1" "168=15,73000 (USD)"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24990,7 +25420,7 @@
 			)
 		)
 		(property "ROHS" "Yes"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25002,7 +25432,7 @@
 			)
 		)
 		(property "MOUNT" "Surface Mount"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25014,7 +25444,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "TFBGA"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25026,7 +25456,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "0°C"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25038,7 +25468,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "85°C"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25050,7 +25480,7 @@
 			)
 		)
 		(property "NUMBER OF LOGIC BLOCKS (LABS)" "11000"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25062,7 +25492,7 @@
 			)
 		)
 		(property "NUMBER OF LOGIC ELEMENTS/CELLS" "44000"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25074,7 +25504,7 @@
 			)
 		)
 		(property "RAM SIZE" "1990656b"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25086,7 +25516,7 @@
 			)
 		)
 		(property "NUMBER OF I/OS" "118"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25098,7 +25528,7 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "No"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25110,7 +25540,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "http://www.latticesemi.com/view_document?document_id=50461&src-supplier=Digi-Key"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25122,7 +25552,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "http://www.latticesemi.com/view_document?document_id=50461&src-supplier=Digi-Key"
-			(at 111.992 145.5122 90)
+			(at 112.522 145.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25134,7 +25564,7 @@
 			)
 		)
 		(property "ASSEMBLY INFO" ""
-			(at 120.12 208.4722 90)
+			(at 120.65 208.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26004,6 +26434,81 @@
 				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
 					(reference "IC7")
 					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LimeSDR-Mini_2v4-altium-import:GND_POWER_GROUND")
+		(at 414.02 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "436fa13d-9611-413c-bd5d-aea436d2c563")
+		(property "Reference" "#PWR0317"
+			(at 414.02 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 414.02 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 414.02 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 414.02 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "23ef50bb-baa2-45e1-8708-e8c109adbc07")
+		)
+		(instances
+			(project "sband_transmitter"
+				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
+					(reference "#PWR0317")
+					(unit 1)
 				)
 			)
 		)
@@ -26991,7 +27496,7 @@
 	)
 	(symbol
 		(lib_id "LimeMicroAltiumLib_schLib:root_0_Header 5X2_SWD_LimeMicroAltiumLib_schLib.SchLib")
-		(at 211.5 59.5022 90)
+		(at 210.79 59.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27001,7 +27506,7 @@
 		(dnp no)
 		(uuid "4957207a-01a3-47d9-b90a-fdaa88650e2e")
 		(property "Reference" "J3"
-			(at 211.5 59.5022 90)
+			(at 210.79 59.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27012,7 +27517,7 @@
 			)
 		)
 		(property "Value" "FPGA GPIO"
-			(at 211.5 78.0422 90)
+			(at 210.79 77.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27023,7 +27528,7 @@
 			)
 		)
 		(property "Footprint" "SWD_10_pin"
-			(at 211.5 59.5022 0)
+			(at 210.79 59.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27034,7 +27539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 211.5 59.5022 0)
+			(at 210.79 59.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27045,7 +27550,7 @@
 			)
 		)
 		(property "Description" "Header, 5-Pin, Dual row"
-			(at 211.5 59.5022 0)
+			(at 210.79 59.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27056,7 +27561,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 206.992 56.9622 90)
+			(at 206.282 56.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27068,7 +27573,7 @@
 			)
 		)
 		(property "CONTACT MATING LENGTH" "0.118\" (3.00mm)"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27080,7 +27585,7 @@
 			)
 		)
 		(property "CATEGORY" "Connectors, Interconnects"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27092,7 +27597,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER 1" "M50-3600542"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27104,7 +27609,7 @@
 			)
 		)
 		(property "NUMBER OF POSITIONS" "10"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27116,7 +27621,7 @@
 			)
 		)
 		(property "COLOR" "Black"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27128,7 +27633,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Harwin Inc"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27140,7 +27645,7 @@
 			)
 		)
 		(property "ROHS" "RoHS Compliant"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27152,7 +27657,7 @@
 			)
 		)
 		(property "NUMBER OF ROWS" "2"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27164,7 +27669,7 @@
 			)
 		)
 		(property "MOLDING HEIGHT ABOVE BOARD" "0.039\" (1.00mm)"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27176,7 +27681,7 @@
 			)
 		)
 		(property "ROW SPACING" "0.050\" (1.27mm)"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27188,7 +27693,7 @@
 			)
 		)
 		(property "CONTACT FINISH THICKNESS" "3µin (0.08µm)"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27200,7 +27705,7 @@
 			)
 		)
 		(property "HEIGHT STACKING (MATING)" "-"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27212,7 +27717,7 @@
 			)
 		)
 		(property "NUMBER OF POSITIONS LOADED" "All"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27224,7 +27729,7 @@
 			)
 		)
 		(property "CONTACT FINISH" "Gold"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27236,7 +27741,7 @@
 			)
 		)
 		(property "TERMINATION" "Solder"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27248,7 +27753,7 @@
 			)
 		)
 		(property "MOUNTING TYPE" "Surface Mount"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27260,7 +27765,7 @@
 			)
 		)
 		(property "PITCH" "0.050\" (1.27mm)"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27272,7 +27777,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" "Unshrouded"
-			(at 206.992 54.4222 90)
+			(at 206.282 54.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27284,7 +27789,7 @@
 			)
 		)
 		(property "FEATURES" "-"
-			(at 206.992 51.8822 90)
+			(at 206.282 51.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27296,7 +27801,7 @@
 			)
 		)
 		(property "PACKAGING" "Bulk"
-			(at 206.992 51.8822 90)
+			(at 206.282 51.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27308,7 +27813,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "952-1389-ND"
-			(at 206.992 56.9622 90)
+			(at 206.282 56.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27320,7 +27825,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "CONN HDR 1.27MM SMD AU 10POS"
-			(at 206.992 56.9622 90)
+			(at 206.282 56.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27332,7 +27837,7 @@
 			)
 		)
 		(property "ASSEMBLY INFO" "NF"
-			(at 211.499 80.2722 90)
+			(at 210.789 80.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31035,7 +31540,7 @@
 	)
 	(symbol
 		(lib_id "LimeSDR-Mini_2v4-altium-import:VCC3P3_BAR")
-		(at 112.5 195.7722 180)
+		(at 113.03 195.58 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31045,7 +31550,7 @@
 		(dnp no)
 		(uuid "657b8b25-ab9a-40ae-bca2-a0701b66fdf1")
 		(property "Reference" "#PWR0113"
-			(at 112.5 195.7722 0)
+			(at 113.03 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31056,7 +31561,7 @@
 			)
 		)
 		(property "Value" "VCC3P3"
-			(at 112.5 191.9622 0)
+			(at 113.03 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31066,7 +31571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 112.5 195.7722 0)
+			(at 113.03 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31076,7 +31581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 112.5 195.7722 0)
+			(at 113.03 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31086,7 +31591,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 112.5 195.7722 0)
+			(at 113.03 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50342,6 +50847,648 @@
 			(project "sband_transmitter"
 				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
 					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LimeMicroAltiumLib_schLib:root_2_Header5P_LimeMicroAltiumLib_schLib.SchLib")
+		(at 397.51 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed1ad8d5-bbe3-4ac2-be5a-8dcd61b43fb2")
+		(property "Reference" "J16"
+			(at 392.43 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FPGA EGPIO (board edge)"
+			(at 390.59 74.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal"
+			(at 397.51 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 397.51 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN HEADER SMD R/A 5POS 1.25MM"
+			(at 397.51 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 392.43 56.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "609-4726-ND"
+			(at 392.43 56.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol FCI"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 1" "69190-405HLF"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROHS" "RoHS Compliant"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CATEGORY" "Connectors, Interconnects"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "STOCK 1" "2326"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PRICING 1" "1=0.28, 10=0.26, 100=0.1799, 500=0.15224, 1000=0.12456, 5000=0.11072, 10000=0.10034 (USD)"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PACKAGING" "Bulk"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PART STATUS" "Active"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONNECTOR TYPE" "Header"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT TYPE" "Male Pin"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PITCH - MATING" "0.100\" (2.54mm)"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "STYLE" "Board to Board"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SHROUDING" "Unshrouded"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "5"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF POSITIONS LOADED" "All"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NUMBER OF ROWS" "1"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ROW SPACING - MATING" "-"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MOUNTING TYPE" "Through Hole"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "TERMINATION" "Press-Fit, Solder"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FASTENING TYPE" "Push-Pull"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT LENGTH - MATING" "0.230\" (5.84mm)"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT LENGTH - POST" "0.120\" (3.05mm)"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "OVERALL CONTACT LENGTH" "0.450\" (11.43mm)"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "INSULATION HEIGHT" "0.100\" (2.54mm)"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT SHAPE" "Square"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT FINISH - MATING" "Tin"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT FINISH THICKNESS - MATING" "100µin (2.54µm)"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT FINISH - POST" "Tin"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT MATERIAL" "Phosphor Bronze"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "INSULATION MATERIAL" "Polycyclohexylenedimethylene Terephthalate (PCT), Glass Filled"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FEATURES" "-"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "OPERATING TEMPERATURE" "-"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "INGRESS PROTECTION" "-"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MATERIAL FLAMMABILITY RATING" "UL94 V-0"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "INSULATION COLOR" "Black"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CURRENT RATING" "-"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "-"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MATED STACKING HEIGHTS" "-"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CONTACT FINISH THICKNESS - POST" "-"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "APPLICATIONS" "-"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "COMPONENTLINK1URL" "http://portal.fciconnect.com/Comergent//fci/drawing/69190.pdf"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "http://portal.fciconnect.com/Comergent//fci/drawing/69190.pdf"
+			(at 392.43 54.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PART DESCRIPTION" "5 Positions Header Connector 0.100\" (2.54mm) Through Hole Tin"
+			(at 392.43 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ASSEMBLY INFO" "NF"
+			(at 392.46 76.962 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "672b56aa-f69c-4bd9-8fd6-7dec96c2022e")
+		)
+		(pin "3"
+			(uuid "feb94697-1e05-4340-9547-04350a18079f")
+		)
+		(pin "4"
+			(uuid "e8b64054-eb69-4f34-967a-1a4dac321241")
+		)
+		(pin "5"
+			(uuid "3a915963-ad71-42f5-a42f-c6b965bf7e23")
+		)
+		(pin "2"
+			(uuid "f1ce4656-f51e-4466-804c-d1a9233f079d")
+		)
+		(instances
+			(project "sband_transmitter"
+				(path "/3bf506dd-a01b-4a07-a94f-e62693c97e44"
+					(reference "J16")
 					(unit 1)
 				)
 			)

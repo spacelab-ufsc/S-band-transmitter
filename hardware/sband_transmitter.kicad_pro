@@ -62,7 +62,7 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.0,
           "min_island_area": 1613.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.0254,
           "pad_connection": 2,
           "remove_islands": 2,
           "thermal_relief_gap": 0.254,
@@ -4021,7 +4021,7 @@
         "uuid": "32cea3bb-50f1-43a8-b387-c36edef101d6"
       }
     ],
-    "used_designators": "J12,J14-15,#PWR166-167,#PWR169,#PWR171,#PWR174,#PWR316",
+    "used_designators": "R115-116",
     "variants": []
   },
   "sheets": [
