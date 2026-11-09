@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP S0971-46R
+D Shielding: Mini SMT Shield Clip for 0.2-0.3mm thick Cans (T+R)
+K
+F https://content.harwin.com/m/c284708aeeb6061e/original/DRG-02149-Technical-Drawing-Datasheet-S0971-46R-pdf.pdf
+$ENDCMP
+#
+#End Doc Library

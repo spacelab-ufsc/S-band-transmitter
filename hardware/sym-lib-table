@@ -2,4 +2,6 @@
 	(version 7)
 	(lib (name "mainboard") (type "KiCad") (uri "${KIPRJMOD}/library/mainboard.kicad_sym") (options "") (descr ""))
 	(lib (name "GRF5115") (type "KiCad") (uri "${KIPRJMOD}/library/2026-08-26_03-13-42.kicad_sym") (options "") (descr ""))
+	(lib (name "LMZ20501SILR") (type "KiCad") (uri "${KIPRJMOD}/library/2026-11-09_20-38-22.kicad_sym") (options "") (descr ""))
+	(lib (name "RF-Shield-Clip") (type "KiCad") (uri "${KIPRJMOD}/library/RFShieldClip/S0971-46R.kicad_sym") (options "") (descr ""))
 )

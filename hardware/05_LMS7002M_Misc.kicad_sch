@@ -6839,8 +6839,8 @@
 	)
 	(text_box "NF"
 		(exclude_from_sim no)
-		(at 301.881 153.3652 0)
-		(size -7 3.266)
+		(at 294.881 153.3652 0)
+		(size 7 3.266)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -7189,8 +7189,8 @@
 	)
 	(text_box "NF"
 		(exclude_from_sim no)
-		(at 364.053 210.1112 0)
-		(size -7 3.266)
+		(at 357.053 210.1112 0)
+		(size 7 3.266)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -79528,7 +79528,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "05c569d2-64ba-4a74-8eb9-9acea7baa0ea")
 		(property "Reference" "MECH19"
 			(at 320.246 257.7482 90)
@@ -79827,7 +79827,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0ea189d7-b5f8-49c4-8e64-7d305f3a3a3e")
 		(property "Reference" "MECH21"
 			(at 328.746 257.7482 90)
@@ -84033,7 +84033,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "518f1a05-2d53-4fb3-adf0-a46970a884ce")
 		(property "Reference" "MECH2"
 			(at 270.682 152.9742 90)
@@ -87233,7 +87233,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "706a0293-42f8-41f9-a101-315759f3e977")
 		(property "Reference" "MECH1"
 			(at 355.775 151.9112 90)
@@ -87523,7 +87523,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "706dbe69-0c8f-4539-b47b-3d65d6ec1ec5")
 		(property "Reference" "MECH3"
 			(at 293.182 153.2742 90)
@@ -88687,7 +88687,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "924287a3-2ce2-4587-93df-e4854f601fb4")
 		(property "Reference" "MECH17"
 			(at 327.722 241.6142 90)
@@ -90282,7 +90282,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b5030d51-9313-45aa-8a63-f9b0fae79c1b")
 		(property "Reference" "MECH18"
 			(at 315.746 257.7482 90)
@@ -90432,7 +90432,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b7290785-70ad-4a92-b94a-070d1d1464e4")
 		(property "Reference" "FAN1"
 			(at 346.806 237.0142 90)
@@ -90905,7 +90905,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b9a60e00-a1fb-47cd-9232-75640e5f1cb6")
 		(property "Reference" "MECH16"
 			(at 323.222 241.6142 90)
@@ -91473,7 +91473,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bf5f40c1-3631-4326-b504-61c059a2229f")
 		(property "Reference" "MECH5"
 			(at 337.082 153.2742 90)
@@ -92817,7 +92817,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f64f0ba7-6c17-4740-874a-45d814485a4e")
 		(property "Reference" "MECH4"
 			(at 316.082 153.2742 90)
@@ -93062,7 +93062,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fbd1cbe1-82ec-433b-96dd-84777bd4ae88")
 		(property "Reference" "MECH20"
 			(at 324.746 257.7482 90)

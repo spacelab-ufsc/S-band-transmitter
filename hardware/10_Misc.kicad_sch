@@ -63312,7 +63312,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "LMZ20501SILR_DC-DC_8-SMD"
+		(property "Footprint" "footprints:SIL0008F"
 			(at 254.304 220.5022 0)
 			(hide yes)
 			(show_name no)
